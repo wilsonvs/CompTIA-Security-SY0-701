@@ -1,9 +1,8 @@
-# CompTIA Security+ (SY0-701)
-
+# CompTIA Security+ (SY0-701) <img src="https://comptiacdn.azureedge.net/webcontent/images/default-source/siteicons/logosecurityplus.svg" alt="CompTIA Security+ Logo" width="200" align= "right">
 
 ## Cybersecurity Career Accelerator Repository
 
-Welcome to the Cybersecurity Career Accelerator Repository! This repository is tailored to help aspiring cybersecurity professionals prepare for the CompTIA Security+ certification exam, an essential step towards building a successful career in cybersecurity.
+Welcome to the Cybersecurity Career Accelerator Repository! This repository is tailored to help aspiring cybersecurity professionals prepare for the [CompTIA Security+ certification exam](https://www.comptia.org/certifications/security), an essential step towards building a successful career in cybersecurity.
 
 ## About CompTIA Security+ Exam
 

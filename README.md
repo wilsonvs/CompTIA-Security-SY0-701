@@ -1,4 +1,5 @@
-# CyberSecPrep
+# CompTIA Security+ (SY0-701)
+
 
 ## Cybersecurity Career Accelerator Repository
 

@@ -8,7 +8,9 @@ The CompTIA Security+ (SY0-701) certification exam comprises five domains or are
 - **Security Operations** (28%)
 - **Security Program Management and Oversight** (20%)
 
-You will have 90 minutes to answer up to 90 questions, which include multiple-choice questions and a few multiple-select questions requiring you to pick 2 or 3 correct answers for a single question. Additionally, you will encounter a handful of performance-based questions. To pass the Security+ certification exam, you need a minimum score of 750 points out of 900 on their 100 to 900 point scale.
+- You will have 90 minutes to answer up to 90 questions, which include multiple-choice questions and a few multiple-select questions requiring you to pick 2 or 3 correct answers for a single question. 
+- Additionally, you will encounter a handful of performance-based questions. -
+- To pass the Security+ certification exam, you need a minimum score of 750 points out of 900 on their 100 to 900 point scale.
 
 ## Exam Tips
 

@@ -2,6 +2,28 @@
 
 This document outlines different types of threat actors, their motivations, attributes, and common attack vectors.
 
+## Table of Contents
+
+1. [Threat Actors](#threat-actors)
+   - [Threat Actor Motivations](#threat-actor-motivations)
+   - [Threat Actor Attributes](#threat-actor-attributes)
+
+2. [Types of Threat Actors](#types-of-threat-actors)
+   - [Unskilled Attackers](#unskilled-attackers)
+   - [Hacktivists](#hacktivists)
+   - [Organized Crime](#organized-crime)
+   - [Nation-state Actor](#nation-state-actor)
+   - [Insider Threats](#insider-threats)
+   - [Shadow IT](#shadow-it)
+  
+3. [Threat Vectors and Attack Surfaces](#threat-vectors-and-attack-surfaces)
+
+4. [Deception and Disruption Technologies](#deception-and-disruption-technologies)
+
+5. [Outsmarting Threat Actors](#outsmarting-threat-actors)
+
+--------
+
 ## Threat Actor Motivations
 
 - Data Exfiltration, Blackmail, Espionage, Service Disruption, Financial Gain, Philosophical/Political Beliefs, Ethical Reasons, Revenge, Disruption/Chaos, War
@@ -156,3 +178,5 @@ This document outlines different types of threat actors, their motivations, attr
   - **Use of port triggering to hide services:**
     - **Port Triggering:** Security mechanism where specific services or ports on a network device remain closed until a specific outbound traffic pattern is detected
   - **Spoofing fake telemetry data:** When a system detects a network scan is being attempted by an attacker, it can be configured to respond by sending out fake telemetry or network data
+
+

@@ -34,8 +34,8 @@ This document outlines different types of threat actors, their motivations, attr
 
 ## Threat Actor Motivations
 
-- *Threat Actors Intent*: Specific objective or goal that a threat actor is aiming to achieve through their attack
-- *Threat Actors Motivation*: Underlying reasons or driving forces that pushes a threat actor to carry out their attack
+- **Threat Actors Intent**: Specific objective or goal that a threat actor is aiming to achieve through their attack
+- **Threat Actors Motivation**: Underlying reasons or driving forces that pushes a threat actor to carry out their attack
 
 - Different motivations behind threat actors:
     - **Data Exfiltration**: Unauthorized transfer of data from a computer
@@ -51,15 +51,15 @@ This document outlines different types of threat actors, their motivations, attr
 
 ## Threat Actor Attributes
 
-- 2 Most Basic Attributes of a Threat Actor:
+- **2 Most Basic Attributes of a Threat Actor:**
     - **Internal Threat Actors**: Individuals or entities within an organization who pose a threat to its security
     - **External Threat Actors**: Individuals or groups outside an organization who attempt to breach its cybersecurity defenses
-- Resources and funding available to the specific threat actor:
+- **Resources and funding available to the specific threat actor:**
     - Tools, skills, and personnel at the disposal of a given threat actor
-- Level of sophistication and capability of the specific threat actor:
+- **Level of sophistication and capability of the specific threat actor:**
     - Refers to their technical skill, the complexity of the tools and techniques they use, and their ability to evade detection and countermeasures
     - In the world of cybersecurity, we usually classify the lowest-skilled threat actors as "script kiddies"
-        - *Script Kiddie*: Individual with limited technical knowledge, uses pre-made software or scripts to exploit computer systems and networks
+        - **Script Kiddie**: Individual with limited technical knowledge, uses pre-made software or scripts to exploit computer systems and networks
     - Nation-state actors, Advanced Persistent Threats, and others have high levels of sophistication and capabilities and possess advanced technical skills, using sophisticated tools and techniques
 
 ## Unskilled Attackers

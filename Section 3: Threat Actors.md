@@ -7,19 +7,15 @@ This document outlines different types of threat actors, their motivations, attr
 1. [Threat Actors](#threat-actors)
    - [Threat Actor Motivations](#threat-actor-motivations)
    - [Threat Actor Attributes](#threat-actor-attributes)
-
 2. [Types of Threat Actors](#types-of-threat-actors)
    - [Unskilled Attackers](#unskilled-attackers)
    - [Hacktivists](#hacktivists)
    - [Organized Crime](#organized-crime)
    - [Nation-state Actor](#nation-state-actor)
    - [Insider Threats](#insider-threats)
-   - [Shadow IT](#shadow-it)
-  
+   - [Shadow IT](#shadow-it) 
 3. [Threat Vectors and Attack Surfaces](#threat-vectors-and-attack-surfaces)
-
 4. [Deception and Disruption Technologies](#deception-and-disruption-technologies)
-
 5. [Outsmarting Threat Actors](#outsmarting-threat-actors)
 
 --------

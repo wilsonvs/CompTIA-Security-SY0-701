@@ -175,9 +175,7 @@ Objectives:
         -   Upholding an Organization's Reputation
     -   To overcome the challenges associated with maintaining availability, the best strategy is to use redundancy in your systems and network designs
         -   *Redundancy*
-            -   Duplication of critical components or functions of a system with the
-
-intention of enhancing its reliability
+            -   Duplication of critical components or functions of a system with the intention of enhancing its reliability
 
 -   There are various types of redundancy you need to consider when designing your systems and networks
     -   *Server Redundancy*

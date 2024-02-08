@@ -7,7 +7,6 @@
 ## Table of Contents
 
 1. [Fundamentals of Security](#fundamentals-of-security)
-   - [Objectives](#objectives)    -- [Fundamentals of Security](#fundamentals-of-security-1)   -- [CIA Triad](#cia-triad)  --  [Non-Repudiation](#non-repudiation)  -- [CIANA Pentagon](#ciana-pentagon)   -- [Triple A’s of Security](#triple-as-of-security)  --  [Security Control Categories](#security-control-categories)   --  [Security Control Types](#security-control-types)   --  [Zero Trust Model](#zero-trust-model)
 2. [Threats and Vulnerabilities](#threats-and-vulnerabilities)
 3. [Confidentiality](#confidentiality)
 4. [Integrity](#integrity)

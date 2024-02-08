@@ -4,6 +4,24 @@
 - 1.1 - Compare and contrast various security controls
 - 1.2 - Summarize fundamental security concepts
 
+## Table of Contents
+
+1. [Fundamentals of Security](#fundamentals-of-security)
+   - [Objectives](#objectives)    -- [Fundamentals of Security](#fundamentals-of-security-1)   -- [CIA Triad](#cia-triad)  --  [Non-Repudiation](#non-repudiation)  -- [CIANA Pentagon](#ciana-pentagon)   -- [Triple A’s of Security](#triple-as-of-security)  --  [Security Control Categories](#security-control-categories)   --  [Security Control Types](#security-control-types)   --  [Zero Trust Model](#zero-trust-model)
+2. [Threats and Vulnerabilities](#threats-and-vulnerabilities)
+3. [Confidentiality](#confidentiality)
+4. [Integrity](#integrity)
+5. [Availability](#availability)
+6. [Non-repudiation](#non-repudiation-1)
+7. [Authentication](#authentication)
+8. [Authorization](#authorization)
+9. [Accounting](#accounting)
+10. [Security Control Categories](#security-control-categories-1)
+11. [Security Control Types](#security-control-types-1)
+12. [Gap Analysis](#gap-analysis)
+13. [Zero Trust](#zero-trust)
+
+
 ## Fundamentals of Security
 - **Information Security**: Protecting data and information from unauthorized access, modification, disruption, disclosure, and destruction
 - **Information Systems Security**: Protecting the systems (e.g., computers, servers, network devices) that hold and process critical data

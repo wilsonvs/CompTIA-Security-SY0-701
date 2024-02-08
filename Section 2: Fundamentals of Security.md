@@ -93,7 +93,7 @@
 
  ## Availability
 
--   **Availability**: Ensure that information, systems, and resources are accessible and operational when needed by authorized users.
+- **Availability**: Ensure that information, systems, and resources are accessible and operational when needed by authorized users.
 
     -   As cybersecurity professionals, we value availability since it can help us with the following:
         -   Ensuring Business Continuity
@@ -101,7 +101,8 @@
         -   Upholding an Organization's Reputation
     
     -   To overcome the challenges associated with maintaining availability, the best strategy is to use redundancy in your systems and network designs.
-        -   **Redundancy**: Duplication of critical components or functions of a system with the intention of enhancing its reliability.
+    
+- **Redundancy**: Duplication of critical components or functions of a system with the intention of enhancing its reliability.
 
 -   There are various types of redundancy you need to consider when designing your systems and networks:
     -   **Server Redundancy**: Involves using multiple servers in a load balanced or failover configuration so that if one is overloaded or fails, the other servers can take over the load to continue supporting your end users.

@@ -16,7 +16,16 @@ Objectives:
 - [Fencing and Bollards](#fencing-and-bollards-1)
 - [Attacking with Brute Force](#attacking-with-brute-force)
 - [Surveillance Systems](#surveillance-systems-1)
-
+  - [Visual Obstruction](#visual-obstruction)
+  - [Blinding Sensors and Cameras](#blinding-sensors-and-cameras)
+  - [Interfering with Acoustics](#interfering-with-acoustics)
+  - [Interfering with Electromagnetic](#interfering-with-electromagnetic)
+  - [Attacking the Physical Environment](#attacking-the-physical-environment)
+- [Access Control Vestibules](#access-control-vestibules-1)
+  - [Piggybacking](#piggybacking)
+  - [Tailgating](#tailgating)
+- [Door Locks](#door-locks)
+- [Access Badge Cloning](#access-badge-cloning)
 
 ## Physical Security
 Measures to protect tangible assets (buildings, equipment, people) from harm or unauthorized access.
@@ -94,3 +103,84 @@ Robust, short vertical posts, typically made of steel or concrete, designed to m
 **Microwave Sensors:** Detect movement in an area by emitting microwave pulses and measuring their reflection off moving objects.
 
 **Ultrasonic Sensors:** Measure the reflection of ultrasonic waves off moving objects.
+
+## Bypassing Surveillance Systems
+Different methods used by attackers to bypass your organization's surveillance systems.
+
+### Visual Obstruction
+Blocking the camera’s line of sight.
+- Spraying paint or foam onto the camera lens.
+- Placing a sticker or tape over the lens.
+- Positioning objects like balloons or umbrellas in front of the camera to block its view.
+
+### Blinding Sensors and Cameras
+Overwhelming the sensor or camera with a sudden burst of light to render it ineffective for a limited period of time.
+
+### Interfering with Acoustics
+Jamming or playing loud music to disrupt the microphone’s functionality.
+
+### Interfering with Electromagnetic
+Involves jamming the signals that surveillance system relies on to monitor the environment.
+
+### Attacking the Physical Environment
+Exploit the environment around the surveillance equipment to compromise their functionality.
+- Physical tampering, like cutting wires or physically disabling devices, is an effective strategy to bypass surveillance systems.
+- Modern systems are equipped with countermeasures to help protect surveillance systems.
+
+## Access Control Vestibules
+Double-door system that is designed with two doors that are electronically controlled to ensure that only one door can be open at a given time.
+These access control vestibules can also help prevent piggybacking and tailgating.
+
+### Piggybacking
+Involves two people working together with one person who has legitimate access intentionally allows another person who doesn't have proper authorization to enter a secure area with them.
+
+### Tailgating
+Occurs whenever an unauthorized person closely follows someone through the access control vestibule who has legitimate access into the secure space without their knowledge or consent.
+The key difference between Piggybacking and Tailgating:
+  - Piggybacking uses social engineering to gain consent of the person with legitimate access.
+  - Tailgating doesn’t use or obtain the consent of the person with legitimate access.
+- Access control vestibules are usually integrated with electronic badges and operated by a security guard at the entrance to a secure facility or office building.
+- Badges contain RFID (Radio-Frequency Identification), NFC (Near-field Communication), Magnetic strips.
+- Security guards are often at access control vestibules because they provide visual deterrent, assistance, check identity, and response.
+## Door Locks
+**Door Locks**: Critical physical security control measure designed to restrict and regulate access to specific spaces or properties, preventing unauthorized intrusions and safeguarding sensitive data and individuals.
+  - Types of Door Locks:
+  - Traditional Padlocks: Easily defeated and offer minimal protection.
+  - Basic Door Locks: Vulnerable to simple techniques like lock picking.
+  - Modern Electronic Door Locks:
+  - Utilize various authentication methods for enhanced security.
+    - Authentication Methods:
+      - Identification Numbers: Require entry of a unique code, providing a balance of security and convenience.
+      - Wireless Signals: Utilize technologies like NFC, Wi-Fi, Bluetooth, or RFID for unlocking.
+      - Biometrics: Rely on physical characteristics like fingerprints, retinal scans, or facial recognition for authentication.
+      - Biometric Challenges:
+        - *False Acceptance Rate (FAR)*: Occurs when the system erroneously authenticates an unauthorized user. Lower FAR by increasing scanner sensitivity.
+        - *False Rejection Rate (FRR)*: Denies access to an authorized user. Adjusting sensitivity can increase FRR.
+        - *Crossover Error Rate (CER)*: A balance between FAR and FRR for optimal authentication effectiveness.
+  - Some electronic door locks use multiple factors, such as an identification number and fingerprint, to increase security.
+- **Cipher Locks**:
+  - Mechanical locks with numbered push buttons, requiring a correct combination to open. Commonly used in high-security areas like server rooms.
+  - Secure entry areas in office buildings, often using electronic access systems with badges and PINs for authentication.
+
+## Access Badge Cloning
+- Radio Frequency Identification (RFID) and Near Field Communication (NFC) are popular technologies used for contactless authentication in various applications.
+-  **Access Badge Cloning**: Copying the data from an RFID or NFC card or badge onto another card or device.
+  - How does an attacker clone an access badge?
+    - Step 1: Scanning: Scanning or reading the targeted individual’s access badge.
+    - Step 2: Data Extraction: Attackers extract the relevant authentication credentials from the card, such as a unique identifier or a set of encrypted data.
+    - Step 3: Writing to a new card or device: Attacker will then transfer the extracted data onto a blank RFID or NFC card or another compatible device.
+    - Step 4: Using the cloned access badge: Attackers gain unauthorized access to buildings, computer systems, or even make payments using a cloned NFC-enabled credit card.
+- Access badge cloning is common because of its:
+  - Ease of execution.
+  - Ability to be stealthy when conducting the attack.
+  - Potentially widespread use in compromising physical security.
+- How can you stop access badge cloning?
+  - Implement advanced encryption in your card-based authentication systems.
+  - Implement Multi-Factor Authentication (MFA).
+  - Regularly update your security protocols.
+  - Educate your users.
+  - Implement the use of shielded wallets or sleeves with your RFID access badges.
+- Monitor and audit your access logs.
+
+
+

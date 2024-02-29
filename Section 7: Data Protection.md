@@ -9,13 +9,13 @@
 - 5.1 - Summarize elements of effective security governance
 
 # Table of Contents
-- 1 [Data Classifications](#data-classifications)
-- 2 [Data Ownership Roles](#data-ownership-roles)
-- 3 [Data States](#data-states)
-- 4 [Data Types](#data-types)
-- 5 [Data Sovereignty](#data-sovereignty)
-- 6 [Securing Data](#securing-data)
-- 7 [Data Loss Prevention (DLP)](#data-loss-prevention-dlp)
+1. [Data Classifications](#data-classifications)
+2. [Data Ownership Roles](#data-ownership-roles)
+3. [Data States](#data-states)
+4. [Data Types](#data-types)
+5. [Data Sovereignty](#data-sovereignty)
+6. [Securing Data](#securing-data)
+7. [Data Loss Prevention (DLP)](#data-loss-prevention-dlp)
 
 ## Data Protection
 Safeguarding information from corruption, compromise, or loss

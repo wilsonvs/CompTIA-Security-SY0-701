@@ -118,9 +118,9 @@ Data actively being created, retrieved, updated, or deleted.
 ## Data Types
 
 - **Regulated Data**: Controlled by laws, regulations, or industry standards.
-  - **Compliance requirements**:
-    - General Data Protection Regulation (GDPR)
-    - Health Insurance Portability and Accountability Act (HIPAA)
+ - **Compliance requirements**:
+  - General Data Protection Regulation (GDPR)
+  - Health Insurance Portability and Accountability Act (HIPAA)
 
 - **PII (Personal Identification Information)**: Information used to identify an individual (e.g., names, social security numbers, addresses). Targeted by cybercriminals and protected by privacy laws.
 
@@ -138,3 +138,46 @@ Data actively being created, retrieved, updated, or deleted.
 
 - **Non-Human-Readable Data**: Requires machine or software to interpret (e.g., binary code, machine language). Contains sensitive information and requires protection.
 
+## Data Sovereignty
+ Digital information subject to laws of the country where it's located. Gained importance with cloud computing's global data storage.
+
+- **GDPR (General Data Protection Regulation)**:
+ - Protects EU citizens' data within EU and EEA borders.
+ - Compliance required regardless of data location.
+ - Non-compliance leads to significant fines.
+
+- **Data Sovereignty Laws** (e.g., China, Russia):
+ - Require data storage and processing within national borders.
+ - Challenge for multinational companies and cloud services.
+
+- **Access Restrictions**:
+ - Cloud services may restrict access from multiple geographic locations.
+
+ Data sovereignty and geographical considerations pose complex challenges, but organizations can navigate them successfully with planning, legal guidance, and strategic technology use, ensuring compliance and data protection.
+
+## Securing Data
+
+- **Geographic Restrictions (Geofencing)**: Virtual boundaries to restrict data access based on location. Compliance with data sovereignty laws. Prevent unauthorized access from high-risk locations.
+
+- **Encryption**: Transform plaintext into ciphertext using algorithms and keys. Protects data at rest and in transit. Requires decryption key for data recovery.
+
+- **Hashing**: Converts data into fixed-size hash values. Irreversible one-way function. Commonly used for password storage.
+
+- **Masking**: Replace some or all data with placeholders (e.g., "x"). Partially retains metadata for analysis. Irreversible de-identification method.
+
+- **Tokenization**: Replace sensitive data with non-sensitive tokens. Original data stored securely in a separate database. Often used in payment processing for credit card protection.
+
+- **Obfuscation**: Make data unclear or unintelligible. Various techniques, including encryption, masking, and pseudonyms, hinder unauthorized understanding.
+
+- **Segmentation**: Divide network into separate segments with unique security controls. Prevent lateral movement in case of a breach. Limits potential damage.
+
+- **Permission Restrictions**: Define data access and actions through ACLs or RBAC. Restrict access to authorized users. Reduce risk of internal data breaches.
+
+## Data Loss Prevention (DLP)
+Aims to monitor data in use, in transit, or at rest to detect and prevent data theft. DLP systems are available as software or hardware solutions.
+
+#### **Types of DLP Systems**:
+- **Endpoint DLP System**: Installed as software on workstations or laptops. Monitors data in use on individual computers. Can prevent or alert on file transfers based on predefined rules.
+- **Network DLP System**: Software or hardware placed at the network perimeter. Focuses on monitoring data entering and leaving the network. Detects unauthorized data leaving the network.
+- **Storage DLP System**: Installed on a server in the data center. Inspects data at rest, especially encrypted or watermarked data. Monitors data access patterns and flags policy violations.
+- **Cloud-Based DLP System**: Offered as a software-as-a-service solution. Protects data stored in cloud services.

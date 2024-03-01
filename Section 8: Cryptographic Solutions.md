@@ -295,12 +295,12 @@ Uses a hash digest encrypted with a private key. The sender hashes the message a
     - Timestamp.
     - Root transactions (hashes of individual transactions).
 
- - **Public Ledger**:
+**Public Ledger**:
   - Secure and anonymous record-keeping system.
   - Maintains participants' identities.
   - Tracks cryptocurrency balances.
 
-#### Blockchain Applications:
+### Blockchain Applications:
 **Smart Contracts**:
 - Self-executing contracts with code-defined terms.
 - Execute actions automatically when conditions are met.

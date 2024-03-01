@@ -6,6 +6,21 @@
 - 2.3 - Explain various types of vulnerabilities 
 - 2.4 - Given a scenario, you must be able to analyze indicators of malicious activity
 
+# Table of Contents
+
+1. [Cryptographic Solutions](#cryptographic-solutions)
+2. [Symmetric vs Asymmetric](#symmetric-vs-asymmetric)
+3. [Symmetric Algorithms](#symmetric-algorithms)
+4. [Asymmetric Algorithms](#asymmetric-algorithms)
+5. [Hashing](#hashing)
+6. [Public Key Infrastructure (PKI)](#public-key-infrastructure-pki)
+7. [Digital Certificates](#digital-certificates)
+8. [Blockchain](#blockchain)
+9. [Encryption Tools](#encryption-tools)
+10. [Obfuscation](#obfuscation)
+11. [Cryptographic Attacks](#cryptographic-attacks)
+
+
 ## Cryptographic Solutions
 
 **Cryptography**: Practice and study of writing and solving codes. Encryption to hide information's true meaning.

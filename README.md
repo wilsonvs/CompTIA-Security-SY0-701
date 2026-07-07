@@ -1,10 +1,10 @@
 # CompTIA Security+ SY0-701 Study Repository
 
-Professional study notes and exam objective mapping for CompTIA Security+ SY0-701, with emphasis on concepts useful for entry-level cybersecurity, SOC analyst, vulnerability management, and GRC roles.
+This repository organizes my CompTIA Security+ SY0-701 preparation and connects exam objectives to hands-on cybersecurity practice.
 
-## Purpose
+## Background
 
-This repository organizes Security+ preparation into recruiter-friendly cybersecurity domains. It is designed to show structured learning, security vocabulary, and practical understanding of the topics expected from a junior cybersecurity professional.
+My current profile includes 8+ years of IT experience, IT Manager work, (ISC)² Certified in Cybersecurity (CC), and active Security+ SY0-701 preparation. I use this repository to keep security concepts structured while I build practical labs in SOC triage, SIEM detection, vulnerability management, IAM, incident response, and GRC.
 
 ## Exam Domains
 
@@ -29,33 +29,30 @@ This repository organizes Security+ preparation into recruiter-friendly cybersec
 
 ## Repository Roadmap
 
-| Priority | Planned Artifact | Hiring Value |
+| Priority | Planned Artifact | Practice Value |
 | --- | --- | --- |
-| 1 | SY0-701 objective checklist | Shows structured exam preparation |
-| 2 | Security glossary | Shows professional vocabulary and concise writing |
-| 3 | Incident response notes | Supports SOC and analyst interviews |
-| 4 | Vulnerability management notes | Supports VM and security analyst roles |
-| 5 | Risk register example | Supports GRC and compliance roles |
-| 6 | Practice scenario writeups | Shows applied reasoning rather than memorization |
+| 1 | SY0-701 objective checklist | Keep exam preparation structured |
+| 2 | Security glossary | Build precise security vocabulary |
+| 3 | Incident response notes | Connect concepts to SOC workflows |
+| 4 | Vulnerability management notes | Connect concepts to remediation planning |
+| 5 | Risk register example | Connect risk concepts to GRC artifacts |
+| 6 | Practice scenario writeups | Practice applied reasoning rather than memorization |
 
 ## Recommended Structure
 
 ```text
 .
-├── README.md
-├── objectives/
-├── notes/
-├── scenarios/
-├── glossary/
-└── references/
+|-- README.md
+|-- objectives/
+|-- notes/
+|-- scenarios/
+|-- glossary/
+`-- references/
 ```
 
-## How to Review This Repository
+## How This Connects To My Main Portfolio
 
-1. Start with the exam domain map above.
-2. Review notes by domain once they are added.
-3. Compare scenario writeups against common junior analyst responsibilities.
-4. Use the repository alongside hands-on labs in the main portfolio.
+I use this repository alongside my main [cybersecurity portfolio](https://github.com/wilsonvs/cybersecurity-portfolio), where I publish hands-on labs, sample logs, screenshots, scripts, detection writeups, incident notes, and GRC artifacts.
 
 ## Next Improvements
 
@@ -64,8 +61,7 @@ This repository organizes Security+ preparation into recruiter-friendly cybersec
 - Add references to official CompTIA objectives and trusted cybersecurity documentation.
 - Add scenario-based writeups that explain how concepts apply in a real security team.
 
-## Author
+## Links
 
-Wilson Vijay Sequeira
-
-GitHub: [wilsonvs](https://github.com/wilsonvs)
+- GitHub: [wilsonvs](https://github.com/wilsonvs)
+- LinkedIn: [wilsonvsequeira](https://www.linkedin.com/in/wilsonvsequeira)

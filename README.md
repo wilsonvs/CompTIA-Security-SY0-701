@@ -2,9 +2,9 @@
 
 This repository organizes my CompTIA Security+ SY0-701 preparation and connects exam objectives to hands-on cybersecurity practice.
 
-## Background
+## Professional Context
 
-My current profile includes 8+ years of IT experience, IT Manager work, (ISC)² Certified in Cybersecurity (CC), and active Security+ SY0-701 preparation. I use this repository to keep security concepts structured while I build practical labs in SOC triage, SIEM detection, vulnerability management, IAM, incident response, and GRC.
+I am an aspiring Cybersecurity Analyst with 10+ years of IT experience across system administration, network management, and technical support. I am ISC2 Certified in Cybersecurity (CC), actively preparing for CompTIA Security+ SY0-701, and building practical labs in SOC triage, SIEM detection, incident response, vulnerability management, IAM, cloud security, and GRC.
 
 ## Exam Domains
 
@@ -50,7 +50,7 @@ My current profile includes 8+ years of IT experience, IT Manager work, (ISC)² 
 `-- references/
 ```
 
-## How This Connects To My Main Portfolio
+## Connection To My Main Portfolio
 
 I use this repository alongside my main [cybersecurity portfolio](https://github.com/wilsonvs/cybersecurity-portfolio), where I publish hands-on labs, sample logs, screenshots, scripts, detection writeups, incident notes, and GRC artifacts.
 
@@ -61,7 +61,8 @@ I use this repository alongside my main [cybersecurity portfolio](https://github
 - Add references to official CompTIA objectives and trusted cybersecurity documentation.
 - Add scenario-based writeups that explain how concepts apply in a real security team.
 
-## Links
+## Contact
 
-- GitHub: [wilsonvs](https://github.com/wilsonvs)
+- Email: [wilsonvijaysequeira@gmail.com](mailto:wilsonvijaysequeira@gmail.com)
 - LinkedIn: [wilsonvsequeira](https://www.linkedin.com/in/wilsonvsequeira)
+- GitHub: [wilsonvs](https://github.com/wilsonvs)

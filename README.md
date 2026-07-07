@@ -1,46 +1,71 @@
-# CompTIA Security+ (SY0-701) <img src="https://comptiacdn.azureedge.net/webcontent/images/default-source/siteicons/logosecurityplus.svg" alt="CompTIA Security+ Logo" width="200" align= "right">
+# CompTIA Security+ SY0-701 Study Repository
 
-## Cybersecurity Career Accelerator Repository
+Professional study notes and exam objective mapping for CompTIA Security+ SY0-701, with emphasis on concepts useful for entry-level cybersecurity, SOC analyst, vulnerability management, and GRC roles.
 
-Welcome to the Cybersecurity Career Accelerator Repository! This repository is tailored to help aspiring cybersecurity professionals prepare for the [CompTIA Security+ certification exam](https://www.comptia.org/certifications/security), an essential step towards building a successful career in cybersecurity.
+## Purpose
 
-## About CompTIA Security+ Exam
+This repository organizes Security+ preparation into recruiter-friendly cybersecurity domains. It is designed to show structured learning, security vocabulary, and practical understanding of the topics expected from a junior cybersecurity professional.
 
-CompTIA Security+ is a globally recognized certification that validates the foundational skills required for entry-level cybersecurity roles. The exam covers a broad spectrum of topics including:
+## Exam Domains
 
-- Cyber threats and vulnerabilities
-- Security technologies and tools
-- Network security and architecture
-- Identity and access management
-- Risk management
-- Cryptography
+| Domain | Focus |
+| --- | --- |
+| General Security Concepts | Core principles, controls, cryptography, and security architecture |
+| Threats, Vulnerabilities, and Mitigations | Threat actors, attack types, vulnerability management, and hardening |
+| Security Architecture | Enterprise infrastructure, cloud, identity, endpoint, and network security |
+| Security Operations | Monitoring, logging, automation, incident response, and resilience |
+| Security Program Management | Risk, governance, compliance, policy, audits, and third-party management |
 
-## What's Inside?
+## Skills Reinforced
 
-- **Comprehensive Study Guides**: Detailed guides covering each exam objective with real-world examples and practical insights to deepen your understanding.
-- **Concise Study Notes**: Bite-sized notes summarizing key concepts, definitions, and exam tips for quick revision.
-- **Practice Exams**: Test your knowledge with sample exams simulating the format and difficulty of the actual Security+ exam.
-- **Additional Resources**: Curated links to free and premium resources, books, online courses, and videos to supplement your study and broaden your cybersecurity knowledge.
+- Risk identification and prioritization
+- Security control selection
+- Vulnerability management concepts
+- Incident response lifecycle
+- Log review and monitoring terminology
+- Identity and access management fundamentals
+- Network and endpoint security concepts
+- Governance, risk, and compliance vocabulary
 
-## How to Use This Repository
+## Repository Roadmap
 
-1. Begin by reviewing the comprehensive study guides to grasp the core concepts and topics covered in the exam.
-2. Utilize the concise study notes for quick reference and last-minute revision before the exam.
-3. Gauge your readiness and identify weak areas by taking practice exams.
-4. Explore the additional resources to delve deeper into specific topics and enhance your overall understanding.
+| Priority | Planned Artifact | Hiring Value |
+| --- | --- | --- |
+| 1 | SY0-701 objective checklist | Shows structured exam preparation |
+| 2 | Security glossary | Shows professional vocabulary and concise writing |
+| 3 | Incident response notes | Supports SOC and analyst interviews |
+| 4 | Vulnerability management notes | Supports VM and security analyst roles |
+| 5 | Risk register example | Supports GRC and compliance roles |
+| 6 | Practice scenario writeups | Shows applied reasoning rather than memorization |
 
-## Contribution Guidelines
+## Recommended Structure
 
-We encourage contributions from the cybersecurity community! If you have study materials, notes, practice questions, or additional resources that you believe would benefit others, please don't hesitate to submit a pull request.
+```text
+.
+├── README.md
+├── objectives/
+├── notes/
+├── scenarios/
+├── glossary/
+└── references/
+```
 
-## Disclaimer
+## How to Review This Repository
 
-While this repository aims to assist in exam preparation, success ultimately depends on your dedication, understanding, and practical application of cybersecurity concepts. Use this repository as a supplement to your study routine and seek additional guidance as needed.
+1. Start with the exam domain map above.
+2. Review notes by domain once they are added.
+3. Compare scenario writeups against common junior analyst responsibilities.
+4. Use the repository alongside hands-on labs in the main portfolio.
 
-## Start Your Cybersecurity Journey
+## Next Improvements
 
-Embark on your cybersecurity journey today by cloning this repository and immersing yourself in the study materials provided! Best of luck on your path to becoming a certified cybersecurity professional!
+- Add a domain-by-domain objective tracker.
+- Add practical examples for incident response, vulnerability management, IAM, cloud security, and risk management.
+- Add references to official CompTIA objectives and trusted cybersecurity documentation.
+- Add scenario-based writeups that explain how concepts apply in a real security team.
 
----
+## Author
 
-Promote active engagement within the cybersecurity community on GitHub by participating in discussions, sharing insights, and collaborating with others. Engage with cybersecurity forums, communities, and social media platforms to spread awareness and make the repository trend.
+Wilson Vijay Sequeira
+
+GitHub: [wilsonvs](https://github.com/wilsonvs)

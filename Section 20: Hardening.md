@@ -1,46 +1,50 @@
 # Hardening
 
 ## Objectives
+- Understand how hardening reduces attack surface
+- Identify common hardening techniques
+- Connect hardening to secure baselines and configuration management
 
-- Understand how hardening reduces attack surface.
-- Identify system, network, cloud, and application hardening practices.
-- Connect hardening to baselines, patching, configuration management, and audits.
+## Hardening
+- **Hardening:** The process of securely configuring systems, applications, networks, and cloud resources to reduce weaknesses
+- Hardening helps prevent attacks before they happen
 
-## Key Concepts
-
-Hardening is the process of reducing weaknesses by securely configuring systems and removing unnecessary exposure. It is preventive work that lowers the likelihood of compromise.
-
-Common hardening actions:
-
-- Disable unused services
+## Common Hardening Steps
 - Remove unnecessary software
+- Disable unused services
 - Apply security patches
-- Enforce strong authentication
+- Change default passwords
+- Disable default accounts if possible
+- Enable host firewall
 - Require MFA
-- Configure host firewalls
+- Enforce least privilege
 - Enable logging
-- Restrict administrative access
-- Use secure protocols
-- Encrypt sensitive data
+- Use encryption
 - Apply secure baselines
-- Disable default accounts where possible
 
-## Operating System Hardening
-
-Windows and Linux systems should be configured with least privilege, current patches, secure remote access, endpoint protection, audit logging, and secure account policies.
+## System Hardening
+- Patch operating systems
+- Use endpoint protection
+- Configure account lockout
+- Disable unnecessary ports
+- Restrict administrator access
+- Enable audit logging
 
 ## Network Hardening
-
-Network hardening includes secure management access, strong wireless encryption, segmentation, firewall rule review, disabled unused ports, secure SNMP settings, and device firmware updates.
+- Review firewall rules
+- Disable unused switch ports
+- Use secure management protocols
+- Segment networks
+- Update device firmware
+- Secure wireless settings
 
 ## Cloud Hardening
+- Use least-privilege IAM
+- Keep storage private by default
+- Enable cloud audit logs
+- Encrypt data
+- Restrict security groups
+- Monitor configuration changes
 
-Cloud hardening includes private-by-default storage, least-privilege IAM, MFA, secure security groups, encryption, logging, budget alerts, and configuration monitoring.
-
-## Application Hardening
-
-Application hardening includes secure headers, input validation, secrets management, dependency updates, error handling, access control, and secure deployment practices.
-
-## What I Focus On
-
-I connect hardening to system administration experience: patching, user access management, secure configuration, endpoint maintenance, and operational troubleshooting.
+## Key Takeaway
+- Hardening reduces the number of ways an attacker can enter, move, or cause damage.

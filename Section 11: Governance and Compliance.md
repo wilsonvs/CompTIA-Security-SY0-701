@@ -1,61 +1,51 @@
 # Governance and Compliance
 
 ## Objectives
+- Understand the purpose of governance in security programs
+- Explain the difference between policies, standards, procedures, baselines, and guidelines
+- Connect compliance requirements to controls and evidence
 
-- Understand how policies, standards, procedures, and regulations guide security programs.
-- Connect governance to risk management, audits, access control, and incident response.
-- Recognize common compliance drivers and documentation requirements.
+## Governance
+- **Governance:** The way an organization directs, manages, and measures security decisions
+- Governance defines who owns security responsibilities, how decisions are approved, and how risk is reported
+- Good governance keeps security aligned with business goals
 
-## Key Concepts
+## Compliance
+- **Compliance:** Following required laws, regulations, contracts, standards, or internal policies
+- Compliance does not always mean secure, but it helps prove that required controls are in place
 
-Governance defines how security decisions are made, owned, measured, and enforced. Compliance verifies that required controls, policies, and legal obligations are being followed.
+## Governance Documents
+- **Policy:** High-level rule or management direction
+- **Standard:** Specific mandatory requirement
+- **Procedure:** Step-by-step instructions
+- **Guideline:** Recommended best practice
+- **Baseline:** Minimum approved configuration or security level
 
-Common governance documents:
-
-- **Policy:** High-level management direction.
-- **Standard:** Required control or configuration baseline.
-- **Procedure:** Step-by-step instructions for completing a task.
-- **Guideline:** Recommended practice.
-- **Baseline:** Minimum approved configuration.
-
-## Common Compliance Areas
-
-- Data privacy and protection
-- Payment card security
-- Healthcare information protection
-- Financial records protection
-- Security awareness training
-- Access reviews
-- Audit logging
-- Incident reporting
-- Vendor oversight
-- Retention and disposal requirements
-
-## Security Policy Examples
-
-Useful security policies include:
-
+## Common Security Policies
 - Acceptable use policy
-- Password and authentication policy
+- Password policy
 - Access control policy
 - Data classification policy
-- Incident response policy
 - Remote access policy
+- Incident response policy
 - Change management policy
-- Backup and recovery policy
+- Backup policy
 - Vendor risk policy
 
-## Practical Workflow
+## Compliance Evidence
+- Policies and procedures
+- Access review records
+- Audit logs
+- Training completion records
+- Vulnerability scan reports
+- Patch reports
+- Backup test results
+- Incident reports
+- Vendor assessment records
 
-1. Identify applicable legal, regulatory, contractual, and business requirements.
-2. Map requirements to controls.
-3. Document policies and procedures.
-4. Assign control owners.
-5. Collect evidence.
-6. Review compliance gaps.
-7. Track remediation.
-8. Report status to stakeholders.
+## Control Ownership
+- Every important security control should have an owner
+- The owner is responsible for implementation, review, evidence, and improvement
 
-## What I Focus On
-
-I connect governance and compliance to practical artifacts such as risk registers, security policy drafts, control mappings, access reviews, and incident reports.
+## Key Takeaway
+- Governance defines how security is managed; compliance proves that required controls and processes are being followed.

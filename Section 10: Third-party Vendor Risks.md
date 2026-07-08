@@ -1,57 +1,64 @@
 # Third-party Vendor Risks
 
 ## Objectives
+- Understand how vendors and suppliers can introduce security risk
+- Identify common third-party and supply-chain risks
+- Know what should be reviewed before and during a vendor relationship
 
-- Understand risks introduced by suppliers, contractors, managed service providers, cloud providers, and software vendors.
-- Identify contract, data handling, access control, and supply-chain security concerns.
-- Connect vendor risk management to governance, compliance, and incident response.
+## Third-party Risk
+- **Third-party Risk:** Risk created when an outside company, contractor, supplier, cloud provider, or service provider has access to systems, data, or business processes
+- Vendors can improve business operations, but they can also increase the attack surface
+- A weak vendor can become an entry point into a stronger organization
 
-## Key Concepts
-
-Third parties often need access to systems, data, facilities, or business processes. That access can improve business operations, but it also expands the attack surface. A vendor with weak security can become a path into a stronger organization.
-
-Common third-party risks:
-
-- Excessive privileged access
-- Poor identity and access management
-- Weak patching or vulnerability management
+## Common Vendor Risks
+- Excessive access permissions
+- Weak authentication or no MFA
+- Poor patching practices
 - Insecure software updates
-- Data leakage or mishandling
-- Lack of logging or monitoring
-- Poor incident notification timelines
+- Data leakage
 - Cloud misconfiguration
-- Weak physical security
-- Unclear ownership of security responsibilities
+- Weak incident reporting process
+- Lack of logging or monitoring
+- Poor physical security
+- Unknown fourth-party dependencies
+
+## Supply Chain Risk
+- **Supply Chain Risk:** Risk that comes from products, services, software, hardware, vendors, or subcontractors used by an organization
+- Examples include:
+  - Compromised software update
+  - Vulnerable third-party library
+  - Vendor account compromise
+  - Malicious hardware or firmware
+  - Service provider outage
 
 ## Vendor Due Diligence
+- Before using a vendor, organizations may review:
+  - Security questionnaire
+  - Compliance reports
+  - Data handling practices
+  - Access requirements
+  - Encryption controls
+  - Incident response process
+  - Business continuity plan
+  - Vulnerability management process
 
-Before working with a vendor, security teams should review:
+## Contracts and SLAs
+- **SLA:** Service Level Agreement that defines expected service performance
+- Vendor contracts may include:
+  - Breach notification timeframe
+  - Data ownership
+  - Audit rights
+  - Security requirements
+  - Availability requirements
+  - Recovery objectives
+  - Termination rights
 
-- Security questionnaire responses
-- SOC 2, ISO 27001, PCI DSS, HIPAA, or other compliance reports where applicable
-- Data processing agreements
-- Access requirements
-- Encryption and data retention practices
-- Business continuity and disaster recovery posture
-- Incident response process
-- Vulnerability disclosure and patching practices
-- Subcontractor or fourth-party dependencies
+## Vendor Offboarding
+- Remove accounts and access
+- Revoke API keys and tokens
+- Retrieve company equipment if applicable
+- Confirm data deletion or return
+- Update documentation and asset inventory
 
-## Contract and SLA Considerations
-
-Useful contract language may cover data ownership, breach notification timeframes, security control requirements, audit rights, encryption, logging, evidence retention, service availability, recovery time objective, and recovery point objective.
-
-## Practical Workflow
-
-1. Classify vendor criticality.
-2. Identify data and systems the vendor can access.
-3. Review security controls and compliance evidence.
-4. Define minimum access needed.
-5. Monitor vendor access and activity.
-6. Track issues in a risk register.
-7. Reassess periodically.
-8. Offboard access immediately when the relationship ends.
-
-## What I Focus On
-
-I connect third-party risk to least privilege, cloud security, access reviews, incident response planning, and security documentation.
+## Key Takeaway
+- Vendor security should be reviewed before access is granted and monitored throughout the relationship.

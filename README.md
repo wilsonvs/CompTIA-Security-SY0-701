@@ -1,17 +1,19 @@
-# CompTIA Security+ SY0-701 Study Notes
+# CompTIA Security+ SY0-701 Study Guide, Study Notes, and Exam Prep
 
-Free CompTIA Security+ SY0-701 study notes for learners preparing for the Security+ exam. This repository is organized as a clear revision guide with short explanations, definitions, examples, and exam-domain coverage.
+Free CompTIA Security+ SY0-701 study guide and study notes for learners preparing for the Security+ exam. This repository is organized for exam prep, quick revision, domain review, and cheat-sheet style lookup of key cybersecurity concepts.
 
-If these notes help, consider starring the repo so more learners can find it.
+If these notes help, consider starring or forking the repo so more learners can find and improve it.
 
-## What This Repository Covers
+## What This Study Guide Covers
 
 - CompTIA Security+ SY0-701 exam objectives
+- Security+ study notes for all 5 exam domains
 - Cybersecurity fundamentals and security controls
 - Threat actors, vulnerabilities, attacks, and mitigations
 - Security architecture, infrastructure, IAM, and hardening
 - Security operations, monitoring, incident response, and investigation
 - Governance, risk, compliance, vendor risk, audits, and awareness
+- Quick-review notes for exam preparation and last-week revision
 
 ## Quick Links
 
@@ -100,9 +102,9 @@ Use the section files for focused revision. The complete combined notes file is 
 - Schedule, reschedule, or cancel through the official Pearson VUE / CompTIA testing flow.
 - Avoid brain dumps and unauthorized exam-question sites. They can violate exam policy and damage real learning.
 
-## Keywords
+## Search Keywords
 
-CompTIA Security+ SY0-701, Security+ study notes, Security+ exam notes, CompTIA Security+ study guide, SY0-701 exam objectives, cybersecurity fundamentals, SOC analyst basics, information security, risk management, incident response, vulnerability management, IAM, cryptography, security architecture, security operations, governance risk compliance, GRC, cybersecurity certification.
+CompTIA Security+ SY0-701 study guide, Security+ SY0-701 study notes, Security+ exam prep, CompTIA Security+ cheat sheet, SY0-701 cheat sheet, Security+ certification guide, CompTIA Security+ exam objectives, cybersecurity certification study guide, Security+ quick review, Security+ domain notes, cybersecurity fundamentals, SOC analyst basics, information security, risk management, incident response, vulnerability management, IAM, cryptography, security architecture, security operations, governance risk compliance, GRC.
 
 ## Contributing
 

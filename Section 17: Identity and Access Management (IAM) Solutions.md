@@ -1,60 +1,43 @@
 # Identity and Access Management (IAM) Solutions
 
 ## Objectives
+- Understand authentication, authorization, and accounting
+- Compare access control models
+- Explain the identity lifecycle and privileged access management
 
-- Understand authentication, authorization, accounting, and identity lifecycle management.
-- Explain access control models and privileged access concepts.
-- Connect IAM to zero trust, cloud security, and incident prevention.
+## IAM
+- **Identity and Access Management (IAM):** Processes and technologies used to manage users, identities, authentication, authorization, and access
+- IAM controls who can access systems and what they can do
 
-## Key Concepts
-
-IAM controls who can access systems, what they can do, and how that activity is recorded. Weak IAM is one of the most common causes of security incidents.
-
-Core IAM concepts:
-
-- Identification
-- Authentication
-- Authorization
-- Accounting
-- Provisioning
-- Deprovisioning
-- Federation
-- Single sign-on
-- Multi-factor authentication
-- Conditional access
-- Privileged access management
+## AAA
+- **Authentication:** Verifies identity
+- **Authorization:** Determines what the identity can access
+- **Accounting:** Tracks user actions for logs, audits, and investigations
 
 ## Authentication Factors
-
-- Something you know: password or PIN
-- Something you have: token, smart card, authenticator app
-- Something you are: biometric factor
-- Somewhere you are: location-based factor
-- Something you do: behavior-based factor
+- **Something you know:** Password or PIN
+- **Something you have:** Token, smart card, authenticator app
+- **Something you are:** Biometric factor
+- **Somewhere you are:** Location-based factor
+- **Something you do:** Behavior-based factor
 
 ## Access Control Models
-
-| Model | Description |
-| --- | --- |
-| DAC | Owner controls access to resources |
-| MAC | System-enforced labels and classifications |
-| RBAC | Access based on job role |
-| ABAC | Access based on attributes such as user, device, time, and location |
-| Rule-based | Access based on defined rules or conditions |
+- **DAC:** Owner decides who gets access
+- **MAC:** Access is based on labels and classifications
+- **RBAC:** Access is based on job role
+- **ABAC:** Access is based on attributes such as user, device, time, and location
+- **Rule-based:** Access is based on defined rules
 
 ## Identity Lifecycle
+- Provision account
+- Assign least-privilege access
+- Review access regularly
+- Modify access when job role changes
+- Disable or remove access during offboarding
 
-1. Create identity after approval.
-2. Assign least-privilege access.
-3. Review access regularly.
-4. Modify access when roles change.
-5. Remove access immediately during offboarding.
-6. Monitor privileged and unusual activity.
+## Privileged Access Management
+- **PAM:** Controls and monitors high-privilege accounts
+- Privileged accounts should use MFA, logging, approval, and limited session access
 
-## Cloud IAM
-
-Cloud IAM requires careful permission design. Overly broad roles, exposed access keys, public storage, and weak logging can create major risk. Least privilege, MFA, short-lived credentials, and regular access review are critical.
-
-## What I Focus On
-
-I connect IAM to user administration, permissions management, cloud access review, Windows/Linux administration, and SOC investigation of suspicious logons.
+## Key Takeaway
+- IAM is one of the most important security areas because compromised accounts are commonly used in attacks.

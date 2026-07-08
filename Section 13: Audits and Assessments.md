@@ -1,58 +1,48 @@
 # Audits and Assessments
 
 ## Objectives
+- Understand the purpose of security audits and assessments
+- Compare different assessment types
+- Identify common evidence used to prove controls are working
 
-- Understand the difference between audits, assessments, reviews, and tests.
-- Identify common security assessment methods and evidence types.
-- Connect assessments to risk management and remediation tracking.
+## Audit
+- **Audit:** A formal review used to check whether requirements, policies, controls, or regulations are being followed
+- Audits can be internal or external
+- Audit results may identify findings, gaps, or required corrective actions
 
-## Key Concepts
+## Assessment
+- **Assessment:** A review used to understand security posture, risk, weaknesses, or control effectiveness
+- Assessments are often used before audits, after incidents, or during security improvement work
 
-Audits and assessments measure whether controls exist, operate effectively, and meet requirements. They help identify gaps before incidents or regulatory findings occur.
+## Common Assessment Types
+- **Risk Assessment:** Identifies and prioritizes risks
+- **Vulnerability Assessment:** Finds technical weaknesses
+- **Penetration Test:** Tests whether weaknesses can be exploited
+- **Configuration Review:** Checks systems against secure baselines
+- **Access Review:** Verifies user permissions are appropriate
+- **Tabletop Exercise:** Tests incident response decision making
 
-Common activities:
-
-- Internal audit
-- External audit
-- Risk assessment
-- Vulnerability assessment
-- Penetration test
-- Configuration review
-- Access review
-- Tabletop exercise
-- Compliance assessment
-- Control self-assessment
-
-## Evidence Examples
-
-Security evidence can include:
-
+## Audit Evidence
 - Policies and procedures
 - Screenshots of configurations
-- Access review exports
+- Access review reports
 - Log samples
-- Vulnerability scan results
+- Vulnerability scan reports
 - Patch reports
-- Backup job results
-- Incident response records
-- Training completion records
-- Vendor compliance reports
+- Backup test results
+- Incident records
+- Training records
 
-## Assessment Types
+## Findings
+- **Finding:** A documented issue discovered during an audit or assessment
+- A finding should include:
+  - Description
+  - Evidence
+  - Risk or impact
+  - Recommendation
+  - Owner
+  - Due date
+  - Status
 
-| Type | Purpose |
-| --- | --- |
-| Vulnerability assessment | Identify and prioritize technical weaknesses |
-| Penetration test | Validate exploitability and attack paths |
-| Compliance audit | Verify alignment with required standards |
-| Configuration review | Check systems against secure baselines |
-| Access review | Confirm users have appropriate permissions |
-| Tabletop exercise | Test response process and decision making |
-
-## Remediation Tracking
-
-Findings should include severity, affected asset, evidence, business impact, recommended fix, owner, due date, and status. Closure should be based on validation, not only a claim that the issue was fixed.
-
-## What I Focus On
-
-I connect audits and assessments to clear documentation, evidence collection, vulnerability management, and risk-based remediation.
+## Key Takeaway
+- Audits verify compliance; assessments help identify security gaps and improvement areas.

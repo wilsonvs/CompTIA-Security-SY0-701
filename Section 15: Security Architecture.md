@@ -1,51 +1,42 @@
 # Security Architecture
 
 ## Objectives
+- Understand how secure design reduces risk
+- Explain defense in depth, segmentation, zero trust, and least privilege
+- Connect architecture choices to confidentiality, integrity, and availability
 
-- Understand how secure architecture reduces risk across systems, networks, cloud, and applications.
-- Explain segmentation, defense in depth, zero trust, and secure design principles.
-- Connect architecture decisions to confidentiality, integrity, and availability.
+## Security Architecture
+- **Security Architecture:** The design of systems, networks, applications, cloud environments, and controls to protect an organization
+- Good architecture reduces attack paths and limits damage if one control fails
 
-## Key Concepts
-
-Security architecture defines how systems are designed, connected, protected, monitored, and maintained. Good architecture reduces attack paths and limits damage when a control fails.
-
-Core design principles:
-
-- Defense in depth
-- Least privilege
-- Zero trust
-- Secure by design
-- Fail secure
-- Separation of duties
-- Segmentation
-- Resilience and redundancy
-- Centralized logging
-- Strong identity controls
+## Secure Design Principles
+- **Defense in Depth:** Using multiple layers of security controls
+- **Least Privilege:** Giving users and systems only the access they need
+- **Zero Trust:** Never trust by default; always verify
+- **Segmentation:** Separating networks or systems to reduce lateral movement
+- **Fail Secure:** Systems should fail in a secure state when possible
+- **Separation of Duties:** Dividing responsibilities to reduce misuse or fraud
 
 ## Network Architecture
-
-Important network controls include firewalls, VLANs, network segmentation, VPNs, proxies, IDS/IPS, NAC, DNS security, and secure remote access. Segmentation helps isolate sensitive systems and limits lateral movement.
+- Firewalls control traffic between networks
+- VLANs separate network segments
+- VPNs protect remote access
+- IDS/IPS tools detect or block suspicious traffic
+- Proxies inspect and control web traffic
 
 ## Cloud Architecture
+- Cloud security depends on shared responsibility
+- Important cloud controls include:
+  - IAM
+  - Security groups
+  - Encryption
+  - Logging
+  - Private storage
+  - Backup
+  - Key management
 
-Cloud security depends on correct shared-responsibility decisions. Important areas include IAM, network security groups, storage permissions, encryption, logging, key management, backup, and configuration monitoring.
+## Application Architecture
+- Secure applications need authentication, authorization, input validation, secure APIs, logging, and secrets management
 
-## Secure Application Architecture
-
-Secure application architecture includes input validation, authentication, authorization, session management, secure APIs, secrets management, logging, and secure deployment pipelines.
-
-## Practical Architecture Questions
-
-- What assets are most critical?
-- Who needs access?
-- Which systems are exposed to the internet?
-- Where are logs collected?
-- What happens if one control fails?
-- How are backups protected?
-- How is privileged access monitored?
-- How are changes reviewed?
-
-## What I Focus On
-
-I connect security architecture to network administration, system hardening, IAM, SIEM logging, cloud security fundamentals, and practical least-privilege design.
+## Key Takeaway
+- Security architecture is about designing systems so they are harder to attack, easier to monitor, and easier to recover.

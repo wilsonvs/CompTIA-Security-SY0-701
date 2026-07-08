@@ -1,48 +1,90 @@
 # Audits and Assessments
 
 ## Objectives
-- Understand the purpose of security audits and assessments
-- Compare different assessment types
-- Identify common evidence used to prove controls are working
+- Understand the purpose of audits and assessments
+- Compare common security assessment types
+- Know what evidence is used to prove control effectiveness
 
-## Audit
-- **Audit:** A formal review used to check whether requirements, policies, controls, or regulations are being followed
-- Audits can be internal or external
-- Audit results may identify findings, gaps, or required corrective actions
+## Table of Contents
 
-## Assessment
-- **Assessment:** A review used to understand security posture, risk, weaknesses, or control effectiveness
-- Assessments are often used before audits, after incidents, or during security improvement work
+1. [Audits](#audits)
+2. [Assessments](#assessments)
+3. [Assessment Types](#assessment-types)
+4. [Audit Evidence](#audit-evidence)
+5. [Findings](#findings)
+6. [Remediation Tracking](#remediation-tracking)
+7. [Key Takeaways](#key-takeaways)
 
-## Common Assessment Types
-- **Risk Assessment:** Identifies and prioritizes risks
-- **Vulnerability Assessment:** Finds technical weaknesses
-- **Penetration Test:** Tests whether weaknesses can be exploited
-- **Configuration Review:** Checks systems against secure baselines
-- **Access Review:** Verifies user permissions are appropriate
-- **Tabletop Exercise:** Tests incident response decision making
+## Audits
+
+- **Audit:** A formal review used to verify whether controls, policies, procedures, standards, regulations, or contracts are being followed.
+- Audits may be internal or external.
+- Audit results may create findings that require remediation.
+
+Common audit goals:
+- Verify compliance
+- Confirm control operation
+- Identify gaps
+- Support regulatory requirements
+- Provide evidence to leadership or customers
+
+## Assessments
+
+- **Assessment:** A review used to understand risk, control effectiveness, technical weaknesses, or security posture.
+- Assessments are usually broader and more improvement-focused than audits.
+
+## Assessment Types
+
+- **Risk Assessment:** Identifies and prioritizes risks.
+- **Vulnerability Assessment:** Finds and prioritizes technical weaknesses.
+- **Penetration Test:** Attempts to exploit weaknesses to prove real-world impact.
+- **Configuration Review:** Compares systems against secure baselines.
+- **Access Review:** Checks whether user permissions are appropriate.
+- **Tabletop Exercise:** Walks through a scenario to test response decisions.
+- **Compliance Assessment:** Checks alignment with a standard or regulation.
 
 ## Audit Evidence
-- Policies and procedures
-- Screenshots of configurations
-- Access review reports
-- Log samples
-- Vulnerability scan reports
-- Patch reports
-- Backup test results
-- Incident records
-- Training records
+
+- **Evidence:** Proof that a control exists or is operating correctly.
+
+Examples of evidence:
+- Policy document
+- Procedure document
+- Screenshot of configuration
+- Access review export
+- Vulnerability scan report
+- Patch report
+- Backup test result
+- Log sample
+- Incident report
+- Training completion record
 
 ## Findings
-- **Finding:** A documented issue discovered during an audit or assessment
-- A finding should include:
-  - Description
-  - Evidence
-  - Risk or impact
-  - Recommendation
-  - Owner
-  - Due date
-  - Status
 
-## Key Takeaway
-- Audits verify compliance; assessments help identify security gaps and improvement areas.
+- **Finding:** A documented issue discovered during an audit or assessment.
+
+A finding should include:
+- Description
+- Affected system or process
+- Evidence
+- Risk or impact
+- Recommendation
+- Owner
+- Due date
+- Status
+
+## Remediation Tracking
+
+- Findings should be tracked until validated as fixed.
+- Remediation should include proof, not only a statement that the issue was resolved.
+
+Example:
+- Finding: Local admin access is too broad.
+- Recommendation: Remove unnecessary local administrator rights.
+- Evidence of closure: Updated group membership export and access review approval.
+
+## Key Takeaways
+
+- Audits verify whether requirements are being followed.
+- Assessments help identify weaknesses and improvement areas.
+- Evidence is important because it proves that security controls are working.

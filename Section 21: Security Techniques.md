@@ -1,57 +1,55 @@
 # Security Techniques
 
 ## Objectives
-
-- Understand common technical security techniques used to prevent, detect, and respond to threats.
-- Connect security techniques to real operational use cases.
-- Recognize how layered controls work together.
+- Understand common security techniques used to prevent, detect, and correct security issues
+- Compare preventive, detective, and corrective controls
+- Connect techniques to real security operations
 
 ## Preventive Techniques
-
-- MFA
-- Least privilege
-- Network segmentation
-- Secure configuration baselines
-- Patch management
-- Encryption
-- Application allowlisting
-- Secure coding practices
-- Input validation
-- DNS filtering
-- Email filtering
+- **Preventive Control:** Stops or reduces the chance of an event before it happens
+- Examples:
+  - MFA
+  - Firewall rules
+  - Least privilege
+  - Encryption
+  - Patch management
+  - Secure configuration
+  - Security awareness training
 
 ## Detective Techniques
-
-- SIEM correlation rules
-- Endpoint detection alerts
-- IDS/IPS alerts
-- File integrity monitoring
-- User behavior analytics
-- Cloud audit logging
-- Vulnerability scanning
-- Honeypots and deception controls
-- Authentication anomaly detection
+- **Detective Control:** Identifies suspicious or unwanted activity
+- Examples:
+  - SIEM alerts
+  - IDS alerts
+  - EDR alerts
+  - File integrity monitoring
+  - Log review
+  - Vulnerability scanning
+  - User behavior analytics
 
 ## Corrective Techniques
-
-- Account disablement
-- Credential reset
-- Endpoint isolation
-- Patch deployment
-- Firewall block rules
-- Malware removal
-- Backup restoration
-- Configuration rollback
-- Incident lessons learned
+- **Corrective Control:** Fixes or reduces damage after an event
+- Examples:
+  - Patch deployment
+  - Malware removal
+  - Account reset
+  - Backup restoration
+  - Firewall block rule
+  - Configuration rollback
 
 ## Cryptographic Techniques
-
-Cryptography protects data confidentiality, integrity, authentication, and non-repudiation. Common uses include TLS, VPNs, disk encryption, file encryption, hashing, certificates, and digital signatures.
+- **Hashing:** Verifies integrity
+- **Encryption:** Protects confidentiality
+- **Digital Signature:** Supports integrity, authentication, and non-repudiation
+- **Certificates:** Support trusted identity and secure communication
 
 ## Operational Techniques
+- Change management
+- Access review
+- Incident response playbooks
+- Backup testing
+- Security monitoring
+- User training
 
-Operational controls include change management, ticketing, incident response playbooks, escalation procedures, access reviews, training, and backup validation.
-
-## What I Focus On
-
-I connect security techniques to practical workflows: log triage, detection writing, incident documentation, access review, vulnerability remediation, and hardening.
+## Key Takeaway
+- Security techniques work best when layered together as defense in depth.

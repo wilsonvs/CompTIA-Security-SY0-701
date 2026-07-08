@@ -1,0 +1,148 @@
+name: Format Complete Study Notes
+
+on:
+  push:
+    paths:
+      - .github/workflows/format-complete-notes.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  format-notes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Format complete notes
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          path = Path('Complete CompTIA Security+ SY0-701 Study Notes.md')
+          text = path.read_text(encoding='utf-8')
+
+          replacements = {
+              'â€™': "'",
+              'â€˜': "'",
+              'â€œ': '"',
+              'â€�': '"',
+              'â€“': '-',
+              'â€”': '-',
+              'â€¦': '...',
+              'Â ': ' ',
+              'Â': '',
+          }
+          for bad, good in replacements.items():
+              text = text.replace(bad, good)
+
+          text = text.replace('\r\n', '\n').replace('\r', '\n')
+          lines = text.split('\n')
+
+          while lines and not lines[0].strip():
+              lines.pop(0)
+          if lines and lines[0].strip().lower() == 'comptia security+ (sy0-701) study notes':
+              lines.pop(0)
+          while lines and not lines[0].strip():
+              lines.pop(0)
+
+          main_titles = []
+          for line in lines:
+              match = re.match(r'^#\s+(.+?)\s*$', line)
+              if match:
+                  main_titles.append(match.group(1))
+
+          def anchor_for(section_num, title):
+              base = f'section-{section_num}-{title}'.lower()
+              base = base.replace('+', '')
+              base = re.sub(r'[^a-z0-9\s-]', '', base)
+              base = re.sub(r'\s+', '-', base.strip())
+              base = re.sub(r'-+', '-', base)
+              return base
+
+          nav_rows = [f'| {i} | [{title}](#{anchor_for(i, title)}) |' for i, title in enumerate(main_titles, 1)]
+
+          header = [
+              '# Complete CompTIA Security+ SY0-701 Study Notes',
+              '',
+              'A complete set of CompTIA Security+ SY0-701 study notes organized for quick revision, topic-by-topic review, and full exam preparation.',
+              '',
+              '## How To Use These Notes',
+              '',
+              '- Use the quick navigation table to jump to a topic.',
+              '- Read one section at a time, then review the key terms from that section.',
+              '- Use the official exam objectives to confirm coverage before scheduling the exam.',
+              '- Build flashcards for definitions, acronyms, controls, attack types, and response steps.',
+              '- Use authorized labs and practice questions to connect these notes to real scenarios.',
+              '',
+              '## Official Exam Links',
+              '',
+              '| Resource | Link |',
+              '| --- | --- |',
+              '| Official Security+ certification page | [CompTIA Security+](https://www.comptia.org/certifications/security) |',
+              '| Official SY0-701 exam objectives PDF | [CompTIA Security+ SY0-701 Exam Objectives](https://assets.ctfassets.net/82ripq7fjls2/6TYWUym0Nudqa8nGEnegjG/0f9b974d3b1837fe85ab8e6553f4d623/CompTIA-Security-Plus-SY0-701-Exam-Objectives.pdf) |',
+              '| Schedule the exam | [Pearson VUE CompTIA Testing](https://www.pearsonvue.com/us/en/comptia.html) |',
+              '| Buy voucher / training materials | [CompTIA Store](https://store.comptia.org/) |',
+              '',
+              '## Exam Domains',
+              '',
+              '| Domain | Weight | Focus |',
+              '| --- | ---: | --- |',
+              '| 1.0 General Security Concepts | 12% | Security controls, CIA, AAA, zero trust, physical security, cryptography |',
+              '| 2.0 Threats, Vulnerabilities, and Mitigations | 22% | Threat actors, attack surfaces, vulnerabilities, malware, hardening |',
+              '| 3.0 Security Architecture | 18% | Enterprise architecture, cloud, infrastructure, resilience, data protection |',
+              '| 4.0 Security Operations | 28% | IAM, monitoring, vulnerability management, incident response, automation |',
+              '| 5.0 Security Program Management and Oversight | 20% | Governance, risk, compliance, audits, vendor risk, security awareness |',
+              '',
+              '## Quick Navigation',
+              '',
+              '| Section | Topic |',
+              '| ---: | --- |',
+              *nav_rows,
+              '',
+              '---',
+              '',
+          ]
+
+          new_lines = []
+          section_num = 0
+          for line in lines:
+              match = re.match(r'^#\s+(.+?)\s*$', line)
+              if match:
+                  section_num += 1
+                  if section_num > 1:
+                      while new_lines and not new_lines[-1].strip():
+                          new_lines.pop()
+                      new_lines.extend(['', '<p align="right"><a href="#complete-comptia-security-sy0-701-study-notes">Back to top</a></p>', '', '---', ''])
+                  new_lines.append(f'## Section {section_num}: {match.group(1)}')
+              elif line.startswith('## '):
+                  new_lines.append('#' + line)
+              elif line.startswith('### '):
+                  new_lines.append('#' + line)
+              elif line.startswith('#### '):
+                  new_lines.append('#' + line)
+              else:
+                  line = re.sub(r'^(\s*)-\s{2,}', r'\1- ', line)
+                  new_lines.append(line.rstrip())
+
+          formatted = '\n'.join(header + new_lines).strip() + '\n'
+          path.write_text(formatted, encoding='utf-8')
+
+      - name: Remove temporary workflow and commit
+        shell: bash
+        run: |
+          rm -f .github/workflows/format-complete-notes.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "Complete CompTIA Security+ SY0-701 Study Notes.md" .github/workflows/format-complete-notes.yml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Format complete Security+ study notes"
+            git push
+          fi

@@ -1,49 +1,42 @@
 # Security Infrastructure
 
 ## Objectives
+- Identify common security infrastructure components
+- Understand how infrastructure supports prevention, detection, and response
+- Connect security tools to operational use cases
 
-- Understand common infrastructure security components and their roles.
-- Connect network, endpoint, identity, and monitoring tools into a defensive architecture.
-- Recognize how infrastructure controls support prevention, detection, and response.
+## Security Infrastructure
+- **Security Infrastructure:** Tools, systems, and platforms used to protect, monitor, and manage an environment
+- These controls work together to secure networks, endpoints, identities, data, and applications
 
-## Core Components
+## Network Security Tools
+- **Firewall:** Allows or blocks traffic based on rules
+- **IDS:** Detects suspicious traffic and alerts
+- **IPS:** Detects and blocks suspicious traffic
+- **VPN:** Creates encrypted remote access
+- **Proxy:** Intermediary system that filters or monitors requests
+- **WAF:** Protects web applications from common web attacks
 
-Security infrastructure includes the tools, platforms, and configurations used to protect systems and data.
+## Endpoint Security Tools
+- **Antivirus:** Detects and removes malware
+- **EDR:** Monitors endpoint behavior and supports investigation
+- **Host Firewall:** Controls traffic on a single system
+- **Disk Encryption:** Protects data if a device is lost or stolen
 
-Common components:
+## Monitoring Tools
+- **SIEM:** Collects and correlates logs for security monitoring
+- **SOAR:** Automates and orchestrates response workflows
+- **DLP:** Helps prevent unauthorized data loss
+- **NAC:** Controls device access to the network
 
-- Firewalls
-- Routers and switches
-- VPN gateways
-- Wireless security controls
-- IDS/IPS
-- Web application firewalls
-- Proxies and secure web gateways
-- Endpoint detection and response
-- Antivirus and anti-malware
-- SIEM
-- SOAR
-- DLP
-- NAC
-- PKI and certificate services
-- Backup platforms
+## Important Log Sources
+- Authentication logs
+- Firewall logs
+- DNS logs
+- VPN logs
+- Endpoint logs
+- Cloud audit logs
+- Email security logs
 
-## Network Security Infrastructure
-
-Network controls manage traffic flow, enforce boundaries, and detect suspicious activity. Firewalls and segmentation reduce exposure. IDS/IPS tools inspect traffic. VPNs secure remote connectivity. DNS filtering can block known malicious domains.
-
-## Endpoint Security Infrastructure
-
-Endpoint controls protect workstations, servers, and mobile devices. Useful controls include hardening baselines, EDR, patching, full-disk encryption, host firewall rules, application control, and centralized logging.
-
-## Monitoring Infrastructure
-
-Security monitoring depends on reliable logs. Critical sources include authentication logs, endpoint logs, firewall logs, DNS logs, VPN logs, cloud audit logs, email security logs, and EDR alerts.
-
-## Operational Considerations
-
-Security infrastructure must be maintained. Misconfigured or outdated controls can create a false sense of security. Teams should track ownership, patching, tuning, logging health, and alert response procedures.
-
-## What I Focus On
-
-I connect infrastructure security to my system administration and network support background: maintaining systems, troubleshooting connectivity, reviewing logs, managing access, and improving secure configurations.
+## Key Takeaway
+- Security infrastructure provides the tools needed to protect systems, detect threats, and respond to incidents.

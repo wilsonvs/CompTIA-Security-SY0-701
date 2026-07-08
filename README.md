@@ -1,6 +1,6 @@
 # CompTIA Security+ SY0-701 Study Guide, Study Notes, and Exam Prep
 
-Free CompTIA Security+ SY0-701 study guide and study notes for learners preparing for the Security+ exam. This repository is organized for exam prep, quick revision, domain review, and cheat-sheet style lookup of key cybersecurity concepts.
+CompTIA Security+ SY0-701 study guide and study notes for learners preparing for the Security+ exam. This repository is organized for exam prep, quick revision, domain review, and cheat-sheet style lookup of key cybersecurity concepts.
 
 If these notes help, consider starring or forking the repo so more learners can find and improve it.
 

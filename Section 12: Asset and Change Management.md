@@ -1,60 +1,52 @@
 # Asset and Change Management
 
 ## Objectives
-
-- Understand how asset inventory supports security visibility and risk management.
-- Explain why change control protects availability, integrity, and accountability.
-- Connect asset and change management to vulnerability management, audits, and incident response.
+- Understand why asset inventory is important for security
+- Explain the purpose of change management
+- Connect assets and changes to risk, audits, and incident response
 
 ## Asset Management
+- **Asset Management:** Tracking and managing hardware, software, data, cloud resources, and other items that need protection
+- Security teams cannot protect what they do not know exists
+- Asset inventory helps with patching, vulnerability management, incident response, and audits
 
-Asset management tracks what an organization owns, where it is located, who owns it, and how it is protected. Security teams cannot defend systems they do not know exist.
-
-Important asset details:
-
-- Hostname and asset ID
-- Owner and business function
-- Location or cloud account
-- Hardware and software inventory
-- Operating system and version
-- Data classification
+## Common Asset Details
+- Asset name or ID
+- Owner
+- Location
+- IP address or hostname
+- Operating system
+- Software installed
+- Business function
 - Criticality
+- Data classification
 - Patch status
-- Warranty or lifecycle status
-- Network exposure
+- Lifecycle status
 
 ## Asset Lifecycle
-
-1. Procurement
-2. Deployment
-3. Configuration baseline
-4. Monitoring and maintenance
-5. Patch and vulnerability management
-6. Ownership review
-7. Decommissioning
-8. Secure disposal
+- **Procurement:** Asset is purchased or approved
+- **Deployment:** Asset is installed and configured
+- **Maintenance:** Asset is patched, monitored, and supported
+- **Review:** Ownership, access, and configuration are checked
+- **Decommissioning:** Asset is removed from use
+- **Disposal:** Asset is securely wiped, destroyed, or returned
 
 ## Change Management
+- **Change Management:** A controlled process for reviewing, approving, implementing, and documenting changes
+- Helps prevent outages, misconfigurations, and unauthorized changes
 
-Change management reduces the risk of outages, misconfigurations, and unauthorized modifications. A strong change process creates accountability and gives teams a rollback plan.
+## Change Record
+- A good change record includes:
+  - Change description
+  - Reason for change
+  - Systems affected
+  - Risk and impact
+  - Approval
+  - Implementation steps
+  - Backout plan
+  - Testing plan
+  - Scheduled time
+  - Post-change validation
 
-A change record should include:
-
-- Change description
-- Business reason
-- Systems affected
-- Risk and impact assessment
-- Implementation plan
-- Backout plan
-- Testing plan
-- Approval record
-- Scheduled window
-- Post-change validation
-
-## Security Impact
-
-Poor change management can create exposed services, broken logging, weak firewall rules, unpatched systems, access drift, and failed backups. Good change management supports availability and incident investigation.
-
-## What I Focus On
-
-I connect asset and change management to endpoint visibility, patching, vulnerability prioritization, IAM reviews, and audit evidence.
+## Key Takeaway
+- Asset management gives visibility; change management controls how systems are modified.

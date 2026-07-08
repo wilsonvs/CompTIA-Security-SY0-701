@@ -1,61 +1,56 @@
 # Vulnerabilities and Attacks
 
 ## Objectives
+- Understand common vulnerability types
+- Identify common attack methods
+- Connect vulnerabilities to mitigation controls
 
-- Understand common vulnerability types and attack methods.
-- Connect weaknesses to exploitation paths and mitigation controls.
-- Practice thinking from detection, prevention, and response perspectives.
+## Vulnerability
+- **Vulnerability:** A weakness in software, hardware, configuration, process, or design
+- Vulnerabilities can be exploited by threat actors to gain access, steal data, disrupt service, or escalate privileges
 
-## Key Concepts
-
-A vulnerability is a weakness that can be exploited. An attack is an attempt to use a weakness to compromise confidentiality, integrity, availability, or accountability.
-
-Common vulnerability categories:
-
+## Common Vulnerabilities
 - Missing patches
 - Weak passwords
-- Misconfiguration
-- Insecure default settings
+- Default credentials
+- Misconfigured firewall
+- Public cloud storage
 - Excessive permissions
 - Unencrypted data
 - Insecure APIs
-- Vulnerable software dependencies
 - Poor input validation
-- Exposed management interfaces
-
-## Common Attacks
-
-- Phishing and credential theft
-- Password spraying
-- Brute force attacks
-- Malware infection
-- Ransomware
-- SQL injection
-- Cross-site scripting
-- Path traversal
-- Privilege escalation
-- Man-in-the-middle attacks
-- DNS attacks
-- Denial of service
-- Supply-chain compromise
+- Unsupported software
 
 ## Attack Surface
+- **Attack Surface:** All possible points where an attacker can try to enter or affect a system
+- Examples:
+  - Public web applications
+  - VPN portal
+  - Email
+  - User accounts
+  - APIs
+  - Cloud storage
+  - Endpoints
+  - Wireless networks
 
-The attack surface includes all exposed points that a threat actor could target. Examples include internet-facing services, user accounts, email, VPN portals, cloud storage, APIs, endpoints, wireless networks, and third-party integrations.
+## Common Attacks
+- **Phishing:** Tricks users into revealing information or running malicious content
+- **Brute Force:** Repeated password guessing
+- **Password Spraying:** Trying common passwords across many accounts
+- **SQL Injection:** Injecting SQL commands into an application
+- **XSS:** Running malicious scripts in a victim browser
+- **DoS/DDoS:** Disrupting service availability
+- **Privilege Escalation:** Gaining higher-level permissions
 
-## Mitigation Examples
+## Mitigations
+- Patch systems
+- Enforce MFA
+- Use least privilege
+- Validate input
+- Segment networks
+- Encrypt sensitive data
+- Monitor logs
+- Harden configurations
 
-- Patch management
-- Secure configuration baselines
-- MFA
-- Network segmentation
-- Least privilege
-- Input validation
-- Endpoint protection
-- Logging and monitoring
-- Security awareness training
-- Backup and recovery controls
-
-## What I Focus On
-
-I connect vulnerability and attack knowledge to phishing triage, Windows log analysis, vulnerability reports, IAM reviews, and detection logic.
+## Key Takeaway
+- Vulnerability management reduces attack opportunities before attackers can exploit them.

@@ -1,59 +1,52 @@
 # Investigating an Incident
 
 ## Objectives
+- Understand how to investigate suspicious activity
+- Identify useful evidence sources
+- Build a basic incident timeline
 
-- Understand how to investigate alerts and incidents using evidence.
-- Build timelines from logs, user activity, network activity, and endpoint events.
-- Connect investigation findings to containment and reporting.
+## Investigation
+- **Investigation:** The process of collecting and analyzing evidence to understand what happened, how it happened, what was affected, and what should be done next
 
-## Investigation Workflow
-
-1. Confirm the alert or report.
-2. Identify affected users, hosts, IPs, and services.
-3. Collect relevant logs and evidence.
-4. Build a timeline.
-5. Determine scope and impact.
-6. Identify likely root cause.
-7. Recommend containment and remediation.
-8. Document findings clearly.
+## Basic Workflow
+1. Confirm the alert or report
+2. Identify user, host, IP, or application involved
+3. Collect logs and evidence
+4. Build a timeline
+5. Determine scope
+6. Identify possible root cause
+7. Recommend containment and remediation
+8. Document findings
 
 ## Evidence Sources
-
 - Authentication logs
-- Endpoint process events
-- File modification timestamps
-- EDR alerts
-- Firewall and proxy logs
-- DNS queries
-- Email headers
+- Endpoint logs
+- Firewall logs
+- DNS logs
 - VPN logs
-- Cloud audit trails
-- Web server logs
-- Vulnerability and patch records
+- Proxy logs
+- Email headers
+- Cloud audit logs
+- EDR alerts
+- File timestamps
 
-## Timeline Building
-
-A timeline should show what happened before, during, and after the suspicious activity. It helps separate normal activity from attacker behavior.
-
-Useful timeline fields:
-
-- Timestamp
-- Source
-- User
-- Host
-- Event type
-- Event detail
-- Analyst note
+## Timeline
+- **Timeline:** Ordered list of events showing what happened before, during, and after the incident
+- Timeline fields may include:
+  - Time
+  - Source
+  - User
+  - Host
+  - Event
+  - Analyst note
 
 ## Scope Questions
-
-- Is this one user or many users?
-- Is this one host or many hosts?
-- Did the activity originate internally or externally?
+- Is one user affected or many?
+- Is one host affected or many?
+- Was sensitive data accessed?
 - Was privilege escalation attempted?
-- Was data accessed, changed, or exfiltrated?
+- Is the threat still active?
 - Are there related alerts?
 
-## What I Focus On
-
-I connect investigation work to Windows log analysis, phishing triage, network traffic review, IOC analysis, and structured incident reporting.
+## Key Takeaway
+- A good investigation is evidence-based and focuses on timeline, scope, impact, and next action.

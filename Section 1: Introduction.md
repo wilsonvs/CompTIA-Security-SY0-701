@@ -1,20 +1,72 @@
 # Introduction
 
-The CompTIA Security+ (SY0-701) certification exam comprises five domains or areas of knowledge:
+## Objectives
+- Understand what CompTIA Security+ SY0-701 covers
+- Review the five exam domains
+- Understand the types of questions and exam format
+- Build a simple study approach for Security+ preparation
 
-- **General Security Concepts** (12%)
-- **Threats, Vulnerabilities, and Mitigations** (22%)
-- **Security Architecture** (18%)
-- **Security Operations** (28%)
-- **Security Program Management and Oversight** (20%)
+## Table of Contents
 
-- You will have 90 minutes to answer up to 90 questions, which include multiple-choice questions and a few multiple-select questions requiring you to pick 2 or 3 correct answers for a single question. 
-- Additionally, you will encounter a handful of performance-based questions. -
-- To pass the Security+ certification exam, you need a minimum score of 750 points out of 900 on their 100 to 900 point scale.
+1. [CompTIA Security+ SY0-701](#comptia-security-sy0-701)
+2. [Exam Domains](#exam-domains)
+3. [Exam Format](#exam-format)
+4. [Question Types](#question-types)
+5. [Study Approach](#study-approach)
+6. [Exam Tips](#exam-tips)
+7. [Key Takeaways](#key-takeaways)
+
+## CompTIA Security+ SY0-701
+
+- **CompTIA Security+ SY0-701:** Entry-level cybersecurity certification that validates foundational knowledge in security concepts, threats, architecture, operations, risk, governance, and compliance.
+- Security+ focuses on practical security understanding, not only memorization.
+- The exam is useful for learning how security controls, risks, attacks, monitoring, and response connect together.
+
+## Exam Domains
+
+Security+ SY0-701 is organized into five domains:
+
+| Domain | Weight | Focus |
+| --- | --- | --- |
+| Domain 1 | 12% | General Security Concepts |
+| Domain 2 | 22% | Threats, Vulnerabilities, and Mitigations |
+| Domain 3 | 18% | Security Architecture |
+| Domain 4 | 28% | Security Operations |
+| Domain 5 | 20% | Security Program Management and Oversight |
+
+## Exam Format
+
+- Maximum of 90 questions
+- 90 minutes to complete the exam
+- Passing score is 750 on a scale of 100-900
+- Questions may include multiple-choice, multiple-response, and performance-based questions
+
+## Question Types
+
+- **Multiple Choice:** Select one correct answer.
+- **Multiple Response:** Select more than one correct answer.
+- **Performance-Based Questions:** Scenario-based tasks where the answer may involve applying security knowledge to a practical situation.
+
+## Study Approach
+
+A useful study method:
+1. Read the objective.
+2. Understand the main definitions.
+3. Review examples.
+4. Connect the topic to a real system, user, network, or incident.
+5. Practice scenario-based questions.
+6. Revisit weak areas.
 
 ## Exam Tips
 
-- There won't be any trick questions. However, watch out for distractors or red herrings among the listed possible answer choices, as at least one is usually meant to distract you from the correct answer.
-- Pay attention to words in **bold**, *italics*, or ALL UPPERCASE.
-- Base your answers on CompTIA Security+ knowledge. In cybersecurity, there are no 100% correct answers in the real world due to situational contexts. When in doubt, choose the answer that is correct for the highest number of situations.
-- Understand the key concepts of the test questions instead of memorizing terms word for word.
+- Read each question carefully.
+- Watch for words like best, first, most likely, and least.
+- Eliminate clearly wrong answers.
+- For scenario questions, identify the role, system, risk, and required action.
+- Do not only memorize terms; understand when and why they are used.
+
+## Key Takeaways
+
+- Security+ covers people, process, and technology.
+- The strongest preparation comes from connecting exam concepts to practical examples.
+- The exam tests understanding of security decisions, not just definitions.

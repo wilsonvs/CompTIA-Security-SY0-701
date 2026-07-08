@@ -29,6 +29,26 @@ I am an aspiring Cybersecurity Analyst with 10+ years of IT experience across sy
 | `Section 6: Malware.md` | Malware types, behavior, and mitigation concepts |
 | `Section 7: Data Protection.md` | Data security, privacy, and protection controls |
 | `Section 8: Cryptographic Solutions.md` | Cryptography concepts and applied security use cases |
+| `Section 9: Risk Management.md` | Risk identification, treatment, registers, and prioritization |
+| `Section 10: Third-party Vendor Risks.md` | Vendor due diligence, contracts, access, and supply-chain risk |
+| `Section 11: Governance and Compliance.md` | Policies, standards, procedures, controls, and compliance evidence |
+| `Section 12: Asset and Change Management.md` | Inventory, lifecycle, baselines, and controlled changes |
+| `Section 13: Audits and Assessments.md` | Assessments, audit evidence, findings, and remediation tracking |
+| `Section 14: Cyber Resilience and Redundancy.md` | Backups, RTO, RPO, failover, and continuity planning |
+| `Section 15: Security Architecture.md` | Defense in depth, zero trust, segmentation, and secure design |
+| `Section 16: Security Infrastructure.md` | Firewalls, EDR, SIEM, NAC, DLP, VPN, and monitoring platforms |
+| `Section 17: Identity and Access Management (IAM) Solutions.md` | Authentication, authorization, lifecycle, MFA, and cloud IAM |
+| `Section 18: Vulnerabilities and Attacks.md` | Weaknesses, attack surface, common attacks, and mitigations |
+| `Section 19: Malicious Activity.md` | Indicators, suspicious behavior, log sources, and triage questions |
+| `Section 20: Hardening.md` | Secure baselines for systems, networks, cloud, and applications |
+| `Section 21: Security Techniques.md` | Preventive, detective, corrective, cryptographic, and operational controls |
+| `Section 22: Vulnerability Management.md` | Scanning, validation, prioritization, remediation, and reporting |
+| `Section 23: Alerting and Monitoring.md` | SIEM alert quality, log sources, tuning, and detection examples |
+| `Section 24: Incident Response.md` | Preparation, analysis, containment, eradication, recovery, and lessons learned |
+| `Section 25: Investigating an Incident.md` | Evidence collection, timelines, scope, and investigation reporting |
+| `Section 26: Automation and Orchestration.md` | Repeatable workflows, SOAR concepts, enrichment, and response automation |
+| `Section 27: Security Awareness.md` | Phishing, social engineering, reporting, and user security behavior |
+| `Section 28: Conclusion.md` | Summary and practical connection to hands-on cybersecurity work |
 
 ## Skills Reinforced
 

@@ -1,45 +1,45 @@
 # Automation and Orchestration
 
 ## Objectives
+- Understand the difference between automation and orchestration
+- Identify common security automation use cases
+- Explain benefits and risks of automated response
 
-- Understand how automation improves consistency, speed, and repeatability.
-- Explain orchestration across tools and workflows.
-- Connect automation to SOC operations, vulnerability management, and cloud security.
+## Automation
+- **Automation:** Using technology to perform repeatable tasks with minimal manual work
+- Helps reduce mistakes, save time, and make processes consistent
 
-## Key Concepts
+## Orchestration
+- **Orchestration:** Coordinating multiple automated tasks across tools, systems, or teams
+- Example: SIEM alert creates a ticket, enriches an IP address, checks threat intelligence, and notifies an analyst
 
-Automation performs repeatable tasks with minimal manual effort. Orchestration coordinates multiple automated steps across systems, tools, or teams.
-
-Common security automation examples:
-
-- Parse logs and summarize suspicious events
-- Enrich IP addresses or domains with threat intelligence
+## Common Security Automation Uses
+- Parse logs
+- Enrich IP addresses or domains
 - Create tickets from alerts
-- Disable accounts based on confirmed compromise
-- Block indicators on firewalls or email gateways
+- Disable compromised accounts
+- Block malicious indicators
 - Run vulnerability scans
 - Deploy patches
-- Validate configuration baselines
 - Send incident notifications
-
-## Benefits
-
-- Faster response
-- Fewer manual errors
-- Consistent execution
-- Better evidence collection
-- Improved reporting
-- Repeatable triage
-- Reduced analyst fatigue
-
-## Risks
-
-Automation can also create risk if logic is wrong or permissions are excessive. Security automation should include approvals for high-impact actions, logging, testing, and rollback plans.
+- Generate reports
 
 ## SOAR
+- **SOAR:** Security Orchestration, Automation, and Response
+- SOAR platforms connect alerts, tools, playbooks, approvals, and response actions
 
-Security Orchestration, Automation, and Response platforms connect alerts, enrichment, tickets, and response actions. SOAR can help standardize incident workflows, but it still requires good playbooks and analyst oversight.
+## Benefits
+- Faster response
+- Fewer manual errors
+- Repeatable process
+- Better evidence collection
+- Reduced analyst workload
 
-## What I Focus On
+## Risks
+- Wrong logic can cause wrong action
+- Over-permissioned automation can increase damage
+- High-impact actions may need human approval
+- Automated actions should be logged and tested
 
-I connect automation to Python log triage, repeatable investigation steps, alert enrichment, and reducing manual work in SOC-style workflows.
+## Key Takeaway
+- Automation is useful when the workflow is repeatable, tested, logged, and controlled.

@@ -48,11 +48,10 @@ Always confirm current exam pricing, retirement dates, policies, and voucher rul
 
 ## Study Notes Index
 
-Start with `All in One.md` for the complete combined notes, or use the section files for focused revision.
+Use the section files for focused revision. The complete combined notes file is listed at the end for full-review reading.
 
 | Notes | Focus |
 | --- | --- |
-| [`All in One.md`](All%20in%20One.md) | Complete combined Security+ SY0-701 study notes |
 | [`Section 1: Introduction.md`](Section%201:%20Introduction.md) | Security+ overview and exam orientation |
 | [`Section 2: Fundamentals of Security.md`](Section%202:%20Fundamentals%20of%20Security.md) | Security principles and foundational concepts |
 | [`Section 3: Threat Actors.md`](Section%203:%20Threat%20Actors.md) | Threat actors, motivations, and behavior |
@@ -81,12 +80,13 @@ Start with `All in One.md` for the complete combined notes, or use the section f
 | [`Section 26: Automation and Orchestration.md`](Section%2026:%20Automation%20and%20Orchestration.md) | Repeatable workflows, SOAR concepts, enrichment, and response automation |
 | [`Section 27: Security Awareness.md`](Section%2027:%20Security%20Awareness.md) | Phishing, social engineering, reporting, and user security behavior |
 | [`Section 28: Conclusion.md`](Section%2028:%20Conclusion.md) | Final review and practical study connections |
+| [`Complete CompTIA Security+ SY0-701 Study Notes.md`](Complete%20CompTIA%20Security%2B%20SY0-701%20Study%20Notes.md) | Complete combined Security+ SY0-701 study notes |
 
 ## How To Study With This Repository
 
 1. Download the official CompTIA SY0-701 exam objectives.
-2. Read `All in One.md` once to understand the full exam scope.
-3. Use the section files for focused revision by topic.
+2. Review the section files topic by topic.
+3. Use `Complete CompTIA Security+ SY0-701 Study Notes.md` for full-review reading.
 4. Create flashcards for definitions, acronyms, ports, controls, and attack types.
 5. Practice performance-based questions with legal and authorized lab material.
 6. Review weak domains using the exam-domain weights above.

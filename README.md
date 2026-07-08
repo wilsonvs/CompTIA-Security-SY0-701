@@ -21,15 +21,15 @@ I am an aspiring Cybersecurity Analyst with 10+ years of IT experience across sy
 | File | Focus |
 | --- | --- |
 | `All in One.md` | Consolidated Security+ SY0-701 study notes |
-| `Section 1: Introduction.md` | Security+ overview and exam orientation |
-| `Section 2: Fundamentals of Security.md` | Security principles and foundational concepts |
-| `Section 3: Threat Actors.md` | Threat actors, motivations, and behavior |
-| `Section 4: Physical Security.md` | Physical security concepts and controls |
-| `Section 5: Social Engineering.md` | Social engineering techniques and defenses |
-| `Section 6: Malware.md` | Malware types, behavior, and mitigation concepts |
-| `Section 7: Data Protection.md` | Data security, privacy, and protection controls |
-| `Section 8: Cryptographic Solutions.md` | Cryptography concepts and applied security use cases |
-| `Section 9: Risk Management.md` | Risk identification, treatment, registers, and prioritization |
+| `Section 01: Introduction.md` | Security+ overview and exam orientation |
+| `Section 02: Fundamentals of Security.md` | Security principles and foundational concepts |
+| `Section 03: Threat Actors.md` | Threat actors, motivations, and behavior |
+| `Section 04: Physical Security.md` | Physical security concepts and controls |
+| `Section 05: Social Engineering.md` | Social engineering techniques and defenses |
+| `Section 06: Malware.md` | Malware types, behavior, and mitigation concepts |
+| `Section 07: Data Protection.md` | Data security, privacy, and protection controls |
+| `Section 08: Cryptographic Solutions.md` | Cryptography concepts and applied security use cases |
+| `Section 09: Risk Management.md` | Risk identification, treatment, registers, and prioritization |
 | `Section 10: Third-party Vendor Risks.md` | Vendor due diligence, contracts, access, and supply-chain risk |
 | `Section 11: Governance and Compliance.md` | Policies, standards, procedures, controls, and compliance evidence |
 | `Section 12: Asset and Change Management.md` | Inventory, lifecycle, baselines, and controlled changes |

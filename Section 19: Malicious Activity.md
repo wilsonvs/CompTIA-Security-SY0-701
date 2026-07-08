@@ -1,67 +1,54 @@
 # Malicious Activity
 
 ## Objectives
+- Recognize indicators of malicious activity
+- Identify useful logs for investigation
+- Understand basic triage questions during suspicious activity review
 
-- Recognize indicators of compromise and suspicious activity.
-- Understand how malicious behavior appears in logs, endpoints, email, and networks.
-- Connect malicious activity analysis to SOC triage and incident response.
+## Malicious Activity
+- **Malicious Activity:** Any action intended to steal data, damage systems, gain unauthorized access, disrupt operations, or avoid detection
+- Malicious activity may appear in endpoint logs, authentication logs, network traffic, email, or cloud audit logs
 
 ## Indicators of Compromise
+- **IOC:** Evidence that a system, account, or network may be compromised
+- Examples:
+  - Unknown process
+  - Malware hash
+  - Suspicious IP address
+  - Malicious domain
+  - Unexpected admin account
+  - Disabled security tool
+  - Unusual outbound traffic
+  - Repeated failed logons
+  - Login from unusual location
 
-Indicators of compromise are evidence that a system, account, or network may have been affected by malicious activity.
-
-Examples:
-
-- Unknown processes
-- Suspicious PowerShell usage
-- Unusual outbound connections
-- Repeated failed logons
-- Successful login after many failures
-- Login from impossible travel locations
-- New unauthorized admin account
-- Disabled security tools
-- Suspicious scheduled tasks
-- Unexpected file encryption
-- Malicious domains or IP addresses
-- Known malware hashes
-
-## Log Sources
-
-Useful sources for malicious activity investigation:
-
+## Common Log Sources
 - Windows Security logs
-- Sysmon logs
 - Linux authentication logs
 - Firewall logs
 - DNS logs
-- Proxy logs
 - VPN logs
+- Proxy logs
 - EDR alerts
 - Email security logs
 - Cloud audit logs
-- Web server logs
 
 ## Triage Questions
-
 - What triggered the alert?
-- Which user, host, IP address, or process is involved?
-- Is the activity expected for this user or system?
+- Which user, host, or IP is involved?
+- Is this activity normal for the user or system?
 - What happened before and after the event?
-- Is there evidence of persistence, privilege escalation, or lateral movement?
 - Are other systems affected?
-- What containment action is needed?
+- Is containment needed?
 
 ## Common Response Actions
-
-- Disable compromised accounts
-- Reset credentials
-- Isolate affected endpoints
-- Block malicious indicators
+- Disable account
+- Reset password
+- Isolate endpoint
+- Block malicious IP or domain
 - Preserve evidence
-- Review logs for scope
-- Patch exploited systems
-- Restore from clean backups if needed
+- Review related logs
+- Patch affected system
 
-## What I Focus On
-
-I connect malicious activity analysis to SIEM triage, incident timelines, Windows authentication events, phishing analysis, and IOC reporting.
+## Key Takeaway
+- Malicious activity investigation depends on evidence, context, timeline, and scope.

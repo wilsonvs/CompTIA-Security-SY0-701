@@ -20,6 +20,7 @@ I am an aspiring Cybersecurity Analyst with 10+ years of IT experience across sy
 
 | File | Focus |
 | --- | --- |
+| `All in One.md` | Consolidated Security+ SY0-701 study notes |
 | `Section 1: Introduction.md` | Security+ overview and exam orientation |
 | `Section 2: Fundamentals of Security.md` | Security principles and foundational concepts |
 | `Section 3: Threat Actors.md` | Threat actors, motivations, and behavior |

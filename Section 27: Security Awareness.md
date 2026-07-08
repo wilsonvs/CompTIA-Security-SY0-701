@@ -1,49 +1,52 @@
 # Security Awareness
 
 ## Objectives
+- Understand why users are part of security defense
+- Identify common awareness topics
+- Explain how awareness reduces social engineering risk
 
-- Understand how awareness reduces human-centered security risk.
-- Identify common social engineering and policy topics.
-- Connect awareness to phishing defense, reporting, and security culture.
+## Security Awareness
+- **Security Awareness:** Training and communication that helps users recognize threats and follow secure behavior
+- People can be targeted through email, phone, text, social media, websites, and physical interaction
 
-## Key Concepts
-
-Security awareness helps users recognize threats, follow policy, and report suspicious activity. Technical controls are stronger when people understand their role in protecting systems and data.
-
-Important topics:
-
-- Phishing recognition
-- Password hygiene
+## Common Topics
+- Phishing
+- Password safety
 - MFA use
 - Safe browsing
 - Data handling
-- Removable media risks
-- Social engineering
+- Removable media
 - Physical security
 - Remote work security
 - Incident reporting
 - Clean desk practices
 - Acceptable use
 
-## Social Engineering Indicators
-
+## Social Engineering Warning Signs
 - Urgent pressure
-- Requests for secrecy
-- Unexpected attachments
-- Suspicious links
+- Request for secrecy
+- Unexpected attachment
+- Suspicious link
 - Unusual sender address
-- Requests for credentials or MFA codes
-- Payment or gift card requests
-- Impersonation of executives or IT support
+- Request for password or MFA code
+- Gift card or payment request
+- Impersonation of executive, vendor, or IT support
 
-## Reporting Culture
+## Phishing Defense
+- Check sender address
+- Hover over links when possible
+- Be careful with attachments
+- Watch for spelling or domain tricks
+- Report suspicious emails
+- Do not enter credentials from unexpected links
 
-Users should know how to report suspicious email, lost devices, unusual system behavior, accidental data exposure, and suspected credential compromise. Reporting should be simple and encouraged.
+## Reporting
+- Users should know how to report:
+  - Suspicious email
+  - Lost device
+  - Suspected credential compromise
+  - Unusual system behavior
+  - Accidental data exposure
 
-## Remote and Hybrid Work
-
-Remote work increases reliance on secure Wi-Fi, VPN, MFA, device encryption, endpoint updates, and awareness of shoulder surfing or public network risks.
-
-## What I Focus On
-
-I connect awareness to phishing triage, email header review, social engineering analysis, user support experience, and practical incident reporting.
+## Key Takeaway
+- Security awareness helps reduce human-centered risk and improves early reporting of suspicious activity.

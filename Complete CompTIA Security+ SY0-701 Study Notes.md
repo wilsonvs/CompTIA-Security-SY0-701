@@ -611,7 +611,7 @@ Objectives:
 
 - *Shadow IT*
     - Use of information technology systems, devices, software, applications, and services without explicit organizational approval
-        - IT-related projects that are managed outside of, and without the knowledge of, the IT department
+        - IT-related tools, systems, or initiatives that are managed outside of, and without the knowledge of, the IT department
     - Why does Shadow IT exist?
         - An organization's security posture is actually set too high or is too complex for business operations to occur without be negatively affected
     - *Bring Your Own Devices (BYOD)*
@@ -2327,7 +2327,7 @@ Objective 5.2: Explain elements of the risk management process
             - Conducted at regular intervals (e.g., annually, quarterly, monthly)
             - Part of standard operating procedures for continual risk identification and management
         - *One-Time Risk Assessments*
-            - Conducted for specific projects or initiatives
+            - Conducted for specific initiatives or business activities
             - Not repeated, associated with a particular purpose
         - *Continuous Risk Assessments*
             - Ongoing monitoring and evaluation of risks
@@ -2369,13 +2369,13 @@ Objective 5.2: Explain elements of the risk management process
 ### Risk Register
 
 - *Risk Management*
-    - Crucial for projects and business, it involves the identification and assessment of uncertainties that may impact objectives
+    - Crucial for business operations, it involves the identification and assessment of uncertainties that may impact objectives
     - *Risk Register*
         - Records identified risks, descriptions, impacts, likelihoods, and mitigation actions
         - Key tool in risk management
         - May resemble a heat map risk matrix
         - Facilitates communication and risk tracking
-        - Key component of project and business operations
+        - Key component of business and operational decision-making
     - Components of Risk Register
         - *Risk Description*
             - Identifies and describes the risk
@@ -2393,7 +2393,7 @@ Objective 5.2: Explain elements of the risk management process
             - Determined by combining the impact and likelihood
 - Prioritizes risks (e.g., high, medium, low)
     - *Cost*
-        - Financial impact on the project
+        - Financial impact on the business activity
             - includes potential expenses if it occurs or the cost of risk mitigation
     - Risk Tolerance and Risk Appetite
         - *Risk Tolerance/Risk Acceptance*
@@ -2432,7 +2432,7 @@ Objective 5.2: Explain elements of the risk management process
         - *Impact*
             - Potential consequences if risk occurs
             - Qualitatively rated as low, medium, or high
-            - Assess damage to project or business objectives
+            - Assess damage to business or operational objectives
             - Impact Levels
                 - *Low Impact*
                     - Minor damage, essential functions operational
@@ -2517,7 +2517,7 @@ because they are exempt
         - Often presented in the form of a risk report
     - Risk Monitoring and Reporting are essential for
         - Informed decision making
-            - Offer insights for informed decisions on resource allocation, project timelines, and strategic planning
+            - Offer insights for informed decisions on resource allocation, operational timelines, and strategic planning
         - Risk mitigation
             - Recognize when a risk is escalating so it can be mitigated before becoming an issue
         - Stakeholder communication
@@ -2706,8 +2706,8 @@ integrity
             - Covers general terms of engagement across multiple transactions
             - Used for recurring client relationships, supplemented by Statements of Work
         - *Statement of Work (SOW)*
-            - Specifies project details, deliverables, timelines, and milestones
-            - Provides in-depth project-related information
+            - Specifies work details, deliverables, timelines, and milestones
+            - Provides in-depth work-related information
         - *Non-Disclosure Agreement (NDA)*
             - Ensures confidentiality of sensitive information shared during negotiations
             - Commitment to privacy, protecting proprietary data
@@ -3348,7 +3348,7 @@ or backlog
     - *Version Control*
         - Tracks and manages changes in documents, software, and other files
         - Allows multiple users to collaborate and revert to previous versions when needed
-        - Ensures changes do not create chaos and helps track project evolution
+        - Ensures changes do not create chaos and helps track workflow evolution
         - Preserves past iterations and ensures continuity and stability
     - Proper Documentation
         - All accompanying documentation should be updated when implementing a change

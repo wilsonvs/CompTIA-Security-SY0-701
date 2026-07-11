@@ -54,15 +54,15 @@ Use the section files for focused revision. The complete combined notes file is 
 
 | Notes | Focus |
 | --- | --- |
-| [`Section 1: Introduction.md`](Section%201:%20Introduction.md) | Security+ overview and exam orientation |
-| [`Section 2: Fundamentals of Security.md`](Section%202:%20Fundamentals%20of%20Security.md) | Security principles and foundational concepts |
-| [`Section 3: Threat Actors.md`](Section%203:%20Threat%20Actors.md) | Threat actors, motivations, and behavior |
-| [`Section 4: Physical Security.md`](Section%204:%20Physical%20Security.md) | Physical security concepts and controls |
-| [`Section 5: Social Engineering.md`](Section%205:%20Social%20Engineering.md) | Social engineering techniques and defenses |
-| [`Section 6: Malware.md`](Section%206:%20Malware.md) | Malware types, behavior, and mitigation concepts |
-| [`Section 7: Data Protection.md`](Section%207:%20Data%20Protection.md) | Data security, privacy, and protection controls |
-| [`Section 8: Cryptographic Solutions.md`](Section%208:%20Cryptographic%20Solutions.md) | Cryptography concepts and applied security use cases |
-| [`Section 9: Risk Management.md`](Section%209:%20Risk%20Management.md) | Risk identification, treatment, registers, and prioritization |
+| [`Section 01: Introduction.md`](Section%2001:%20Introduction.md) | Security+ overview and exam orientation |
+| [`Section 02: Fundamentals of Security.md`](Section%2002:%20Fundamentals%20of%20Security.md) | Security principles and foundational concepts |
+| [`Section 03: Threat Actors.md`](Section%2003:%20Threat%20Actors.md) | Threat actors, motivations, and behavior |
+| [`Section 04: Physical Security.md`](Section%2004:%20Physical%20Security.md) | Physical security concepts and controls |
+| [`Section 05: Social Engineering.md`](Section%2005:%20Social%20Engineering.md) | Social engineering techniques and defenses |
+| [`Section 06: Malware.md`](Section%2006:%20Malware.md) | Malware types, behavior, and mitigation concepts |
+| [`Section 07: Data Protection.md`](Section%2007:%20Data%20Protection.md) | Data security, privacy, and protection controls |
+| [`Section 08: Cryptographic Solutions.md`](Section%2008:%20Cryptographic%20Solutions.md) | Cryptography concepts and applied security use cases |
+| [`Section 09: Risk Management.md`](Section%2009:%20Risk%20Management.md) | Risk identification, treatment, registers, and prioritization |
 | [`Section 10: Third-party Vendor Risks.md`](Section%2010:%20Third-party%20Vendor%20Risks.md) | Vendor due diligence, contracts, access, and supply-chain risk |
 | [`Section 11: Governance and Compliance.md`](Section%2011:%20Governance%20and%20Compliance.md) | Policies, standards, procedures, controls, and compliance evidence |
 | [`Section 12: Asset and Change Management.md`](Section%2012:%20Asset%20and%20Change%20Management.md) | Inventory, lifecycle, baselines, and controlled changes |
@@ -70,7 +70,7 @@ Use the section files for focused revision. The complete combined notes file is 
 | [`Section 14: Cyber Resilience and Redundancy.md`](Section%2014:%20Cyber%20Resilience%20and%20Redundancy.md) | Backups, RTO, RPO, failover, and continuity planning |
 | [`Section 15: Security Architecture.md`](Section%2015:%20Security%20Architecture.md) | Defense in depth, zero trust, segmentation, and secure design |
 | [`Section 16: Security Infrastructure.md`](Section%2016:%20Security%20Infrastructure.md) | Firewalls, EDR, SIEM, NAC, DLP, VPN, and monitoring platforms |
-| [`Section 17: Identity and Access Management (IAM) Solutions.md`](Section%2017:%20Identity%20and%20Access%20Management%20(IAM)%20Solutions.md) | Authentication, authorization, lifecycle, MFA, and cloud IAM |
+| [`Section 17: Identity and Access Management (IAM) Solutions.md`](Section%2017:%20Identity%20and%20Access%20Management%20%28IAM%29%20Solutions.md) | Authentication, authorization, lifecycle, MFA, and cloud IAM |
 | [`Section 18: Vulnerabilities and Attacks.md`](Section%2018:%20Vulnerabilities%20and%20Attacks.md) | Weaknesses, attack surface, common attacks, and mitigations |
 | [`Section 19: Malicious Activity.md`](Section%2019:%20Malicious%20Activity.md) | Indicators, suspicious behavior, log sources, and triage questions |
 | [`Section 20: Hardening.md`](Section%2020:%20Hardening.md) | Secure baselines for systems, networks, cloud, and applications |
